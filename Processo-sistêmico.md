@@ -1,121 +1,121 @@
 ---
 published: true
-permalink: /Processo-sist%C3%AAmico/
+permalink: / Case-sist% C3% AAmico /
 layout: slate
-filename: Processo-sistêmico.md
-title: Processo sistêmico de um Plano de Dados Abertos - PDA - Kit de Dados Abertos
-desc: Descreve, em um nível macro, todas as atividades com que uma instituição deve se atentar para implementar uma política de dados abertos.
+filename: Process-sistêmico.md
+title: Systemic Process Plan Open Data - Mobile - Open Data Kit
+desc: depicts, on a macro level, all activities that an institution should be attempted to implement a policy of open data.
 ---
 
-Processo sistêmico de um Plano de Dados Abertos - PDA
+Systemic process of a Plan of Open Data - PDA
 ====
 
-[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA%20-%20com%20titulo.png)
+[<Img alt = "Diagram of the systemic process of a plan to open data" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA%20-%20com%20titulo.png)
 
-O processo sistêmico ganhou esse nome por incluir, em um nível macro, todas as atividades com que uma instituição deve se atentar para implementar uma política de dados abertos. Nesse processo se destaca o Plano de Dados Abertos como documento central onde são publicizados os compromissos e prazos para execução.
+The systemic process was named to include, at a macro level, all activities that an institution should be attempted to implement a policy of open data. In the process it highlights the Open Data Plan as a central document which are publicized commitments and timelines for implementation.
 
-Abaixo segue um detalhamento das etapas envolvidas nesse processo:
+Below is a breakdown of the steps involved in this process:
 
-## Apresentar a política de dados abertos <a name="apresentar-politica"></a>
+## Presenting the policy of open data <a name="apresentar-politica">
 
-Apresentar a política de dados abertos e motivação de criação do PDA para alcançar 
-alinhamento com líder da instituição. Motivações como [essas]({{ site.baseurl }}vantagens-dados-abertos) são apresentadas aos
-responsáveis, bem como o alinhamento político sobre a criação do PDA é retomado.
+Present policy of open data and motivation for creating the PDA to achieve
+alignment with the leader of the institution. Motivations as [these] ({{}} site.baseurl advantages-open-data) are presented to
+responsible as well as the political alignment of the creation of PDA is resumed.
 
-Mediada pelo responsável pela política central de dados abertos.
+Mediated responsible for central policy of open data.
 
-*Próximo passo:* [Definir ponto focal](#ponto-focal)
+* Next step: * [focal point Set] (# focal point)
 
-## Definir ponto focal para coordenar o trabalho <a name="ponto-focal"></a>
+## Set focal point to coordinate the work <a name="ponto-focal"> </a>
 
-Definir ponto focal na instituição para coordenar a elaboração do PDA. Essa pessoa é 
-quem interage com as outras organizações e com a INDA no sentido de trocar experiências
-e alinhar a política de dados abertos.
+Set focal point in the institution to coordinate the preparation of the PDA. This person is
+who interacts with other organizations and with INDA in order to exchange experiences
+and align the policy of open data.
 
-Perfil:
+Profile:
 
-* Conhecedor dos sistemas e bases  de dados mantidos pela instituição; 
-* Familiaridade com o tema Acesso à Informação, formatos de arquivos de
- dados, e conceitos da Web
+* Knowledgeable of systems and databases maintained by the institution;
+* Familiarity with the subject access to information, file formats
+ data and concepts Web
 
-*Próximos passos:*
+* Next steps: *
 
-* Iniciar [processo Piloto Ágil](#piloto) (opcional)
-* [Identificação dos representantes](#representantes)
+* Start [Pilot Agile process] (# pilot) (optional)
+* [Identification of Representatives] (# representatives)
 
-## Processo Piloto Ágil <a name="piloto"></a>
+## Pilot Process Agile <a name="piloto"> </a>
 
-Iniciar [piloto ágil de abertura de um conjunto de dados]({{ site.baseurl }}Piloto-ágil) (opcional). 
-O Objetivo do piloto é a equipe experimentar, de forma muito rápida, todo o processo de
-publicação de dados abertos. Isso dá uma noção do escopo da publicação de dados abertos, 
-ajudando na tomada de decisões durante as próximas atividades de abertura.
+Start [agile pilot opening a dataset] ({{}} site.baseurl Pilot-agile) (optional).
+The goal of the pilot is the team experience, very quickly, the whole process of
+publication of open data. This gives an idea of ​​the scope of the publication of open data,
+helping in decision making over the next opening activities.
 
-## Identificação dos representantes nos setores estratégicos <a name="representantes"></a>
+Identification of ## representatives in strategic sectors <a name="representantes"> </a>
 
-Identificação de reprensentantes nos seguintes setores da instituição:
+Identification of reprensentantes in the following sectors of the institution:
 
-* Serviço de Informação ao Cidadão,
-* Assessoria de Comunicação Social,
-* Ouvidoria,
-* Áreas finalísticas e
-* Área de Tecnologia da Informação 
+* Citizens Information Service,
+* Social Communication,
+* Ombudsman
+* Areas and purposive
+* Area of ​​Information Technology
 
-Esses representantes possuem todo o conhecimento necessário para a criação de 
-um PDA realista e factível, o SIC sabe por exemplo quais dados são mais pedidos, o gestor
-de TI sabe por exemplo quais dados são mais rápidos de extrair e quais podem 
-oferecer dificuldade, etc.
+These representatives have all the necessary knowledge to create
+PDA a realistic and feasible, the SIC know for example what data are more requests, the manager
+IT know for example what data is faster to extract and which can
+provide difficulties, etc.
 
-*Próximo passo:* Iniciar [Oficina para construção do PDA da instituição](#oficina)
+* Next step: * Start [PDA Workshop for construction of the institution] (# Workshop)
 
-## Oficina para construção do PDA da instituição <a name="oficina"></a>
+## Office Building PDA institution <a name="oficina"> </a>
 
-Realização da Oficina para construção do PDA seguindo roteiro no Anexo II
-do [Manual para elaboração de PDA](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820). 
-A oficina tem dois momentos:
+Conducting the workshop to build the PDA following script in Appendix II
+the [Manual for preparing PDA] (http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c820).
+The workshop has two moments:
 
-1. Alinhamento de conceitos sobre o tema, demonstrando não só a questão normativa, como 
-também de que maneira os mecanismos de transparência vêm se consolidando.
-2. Momento de construção do PDA, no qual são apresentados os conceitos presentes 
-neste Kit e iniciado o planejamento.
+1 Alignment of concepts on the subject, demonstrating not only the normative question, as
+also how transparency mechanisms have been consolidated.
+2 Moment construction of the PDA, in which are presented the concepts present
+this kit and started planning.
 
-*Próximo passo:* [Plano de ação para elaboração do PDA](#plano-para-pda)
+* Next step: * [Action plan for development of the PDA] (# plan-for-pda)
 
-## Plano de ação para elaboração do PDA <a name="plano-para-pda"></a>
+## Action plan for development of PDA <a name="plano-to-pda"> </a>
 
-Plano de ação para elaboração do PDA da instituição. Esse plano nada mais é que um cronograma
-de reuniões nas quais todos os representantes precisam estar presentes para dar continuidade
-à produção do Plano. No Ministério do Planejamento, por exemplo, foi reaproveitado o 
-comitê de TI, que já possuia presença de todas as áreas de negócio e a área de TI.
+Action plan for preparing PDA institution. This plan is nothing more than a timeline
+meeting in which all representatives must be present to continue
+the production of the Plan. The Ministry of Planning, for example, was reused the
+IT, which already had presence in all areas of business and the IT committee.
 
-*Próximo passo:* Iniciar [processo de Elaboração do PDA](#elaborar-pda)
+* Next step: Start * [process of elaboration of the PDA] (# draw-pda)
 
-## Processo de Elaboração do PDA <a name="elaborar-pda"></a>
+</a> ## PDA Drafting Process <a name="elaborar-pda">
 
-[Elaboração do Plano de Dados Abertos]({{ site.baseurl }}Elabora%C3%A7%C3%A3o-do-PDA) (Processo iterativo)
+[Preparation of the Plan of Open Data] ({{}} site.baseurl Prepares% C3% A7% C3% A3o-of-PDA) (iterative process)
 
-*Próximos passos:*
+* Next steps: *
 
-* [Revisão do PDA](#revisao-pda)
-* Iniciar [processo Execução do PDA](#execucao-pda)
-* [Publicação do PDA](#publicar-pda)
+* [Review of the PDA] (# review-pda)
+* Start [Running the PDA process] (# execution-pda)
+* [Publication PDA] (# post-pda)
 
-## Revisão do PDA <a name="revisao-pda"></a>
+</a> ## Revision of PDA <a name="revisao-pda">
 
-Convocação de todos envolvidos para etapa de revisão do PDA.
+Call for all involved to review the PDA step.
 
-Essa é uma atividade recorrente que pode ter periodicidade, por exemplo, de uma vez por ano.
-Seu intuito é fazer, além das reuniões de monitoramento e controle das metas, uma revisão 
-no plano como um todo, avaliando se a organização deveria fazer alguma mudança relevante no plano.
+This is a recurring activity which regularity can have, for example, once per year.
+Its intention is to make, in addition to meeting the monitoring and control of targets, a review
+the plan as a whole, assessing whether the organization should do some significant change in the plan.
 
-*Próximo passo:* Iniciar [processo de Elaboração do PDA](#elaborar-pda) (revisão do PDA)
+* Next step: Start * [process of elaboration of the PDA] (# draw-pda) (revision of PDA)
 
-## Publicação do PDA <a name="publicar-pda"></a>
+</a> ## Publication of PDA <a name="publicar-pda">
 
-Publicação do PDA no sítio da instituição, nos formatos HTML e PDF na página
-exemplo.gov.br/aberto da instituição. Exemplo [http://planejamento.gov.br/aberto].
+Publication of PDA on other site, in both HTML and PDF formats on page
+exemplo.gov.br/aberto the institution. Example [http://planejamento.gov.br/aberto].
 
-## Execução do PDA <a name="execucao-pda"></a>
+</a> ## Implementation of PDA-pda"> <a name="execucao
 
-[Execução do Plano de Dados Abertos]({{ site.baseurl }}Execu%C3%A7%C3%A3o-do-PDA).
-Dispara vários processos de abertura de dados, como previsto no cronograma do PDA.
+[Execution Plan Open Data] ({{}} site.baseurl Execu% C3% A7% C3% A3o-of-PDA).
+Triggers various processes of opening data as provided by the schedule of PDA.
 

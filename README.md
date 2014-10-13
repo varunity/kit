@@ -3,78 +3,78 @@ published: true
 permalink: /
 layout: slate
 filename: README.md
-title: Kit de Dados Abertos
-desc: O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição.
+title: Open Data Kit
+desc: The kit is a set of documents describing the process, methods and techniques for implementing a policy of open data within an institution.
 ---
 
-O kit é um conjunto de documentos que descreve o processo, métodos e técnicas para a implementação de uma política de dados abertos no âmbito de uma instituição. Ele é primariamente focado em órgãos e entidades da administração pública federal para a criação e implementação de seus respectivos [Planos de Dados Abertos](Glossário#plano-de-dados-abertos) (PDAs), mas procura ser genérico o suficiente para que possa ser aproveitado em outras instituições.
+The kit is a set of documents describing the process, methods and techniques for implementing a policy of open data within an institution. He is primarily focused on organs and entities of the federal public administration for the creation and implementation of their respective [Plans Open Data] (Glossary # plan-of-open-data) (PDAs), but tries to be generic enough so you can be leveraged in other institutions.
 
-## Contexto e objetivo
+## Background and objective
 
-A publicação de dados abertos é a nova tendência presente na estratégia de governo digital do Brasil e de diversos países do mundo. Seu compromisso foi assumido pela presidente Dilma no momento da assinatura da [declaração](http://www.cgu.gov.br/governoaberto/a-ogp/o_que_e_Governo_Aberto.html) da [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) ([OGP](http://www.opengovpartnership.org/)) e pelos diversos órgãos do executivo nos dois [Planos de Ação da Parceria](http://www.cgu.gov.br/governoaberto/no_Brasil/plano-brasileiro/index.html).
+Publishing open data is present in the new digital government of Brazil and several countries worldwide trend strategy. His commitment was made by President Dilma at the signing of the [statement] (http://www.cgu.gov.br/governoaberto/a-ogp/o_que_e_Governo_Aberto.html) of [the Open Government Partnership] (http: // www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) ([OGP] (http://www.opengovpartnership.org/)) and the various organs of the executive in both [the Partnership Action Plans] (http://www.cgu.gov.br/governoaberto/no_Brasil/plano-brasileiro/index.html).
 
-A recomendação da Presidência da República e do Ministério do Planejamento, Orçamento e Gestão é que os gestores públicos tratem a pauta criando Planos de Dados Abertos em suas organizações.
+The recommendation of the Presidency and the Ministry of Planning, Budget and Management is that public managers deal with the agenda of creating Open Data Plans in their organizations.
 
-As organizações que desenvolvem Planos de Dados Abertos precisam de orientação, métodos e técnicas para sua criação e implementação. A proposta do Kit é fornecer os insumos necessários para esses momentos e servir como guia para referência futura.
-
-
-## Definições e conceitos
-
-1. [O que são dados abertos](http://dados.gov.br/dados-abertos/) - Definições básicas sobre características dos dados abertos
-2. [Vantagens de publicar dados abertos](vantagens-dados-abertos)
-3. [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - Sobre a parceria internacional
-4. O [Portal Brasileiro de Dados Abertos](http://dados.gov.br/sobre/) - Sobre o catálogo de dados
-5. O que é a [Infraestrutura Nacional de Dados Abertos - INDA](http://dados.gov.br/instrucao-normativa-da-inda/)
-6. [Glossário](Glossário) dos termos utilizados neste kit
-
-## Guia para implementação de um Plano de Dados Abertos
-
-A criação e implementação de um Plano de Dados Abertos para uma instituição pode ser organizado em fluxos de atividade como no diagrama a seguir:
-
-[<img alt="Diagrama do processo sistêmico de um plano de dados abertos" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico)
-
-Esse processo pode ser visto com maiores detalhes no documento [Processo sistêmico de um Plano de Dados Abertos - PDA](Processo-sist%C3%AAmico).
-
-Os seguintes subprocessos estão detalhados:
-
-* [Elaboração de um PDA](Elabora%C3%A7%C3%A3o-do-PDA)
-* [Execução de um PDA](Execu%C3%A7%C3%A3o-do-PDA)
-  * [Abertura de bases de dados](Abertura-de-dados)
+Organizations developing Open Data Plans need guidance, methods and techniques for their creation and implementation. The proposal of the Kit is to provide the necessary inputs for these moments and serve as a guide for future reference.
 
 
-## Ferramentas
+## Definitions and concepts
 
-Esta seção é uma lista exemplificativa, e não exaustiva, de ferramentas úteis para [projetos de abertura de dados](Abertura-de-dados). Todas são ferramentas livres, criadas por comunidades de [software livre](Glossário#software-livre), e podem ser utilizadas pelos órgãos governamentais sem restrição. Em geral, são soluções para extração, manipulação e preparação dos dados para sua publicação na Internet. A lista é baseada no [_Project Open Data_](http://project-open-data.github.io/#tools) e [_ODI open data tech review_](https://github.com/dadosgovbr/open-data-tech-review/wiki). Contudo, está restrita a ferramentas que podem ser utilizadas sem a necessidade de conhecimentos de programação.
+1 [What is open data] (http://dados.gov.br/dados-abertos/) - Basic Settings on characteristics of open data
+2 [Advantages of publishing open data] (data-advantages-open)
+3 [Open Government Partnership] (http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp) - About the International Partnership
+4 The [Brazilian Open Data Portal] (http://dados.gov.br/sobre/) - About the catalog data
+5 What is the [National Infrastructure Open Data - INDA] (http://dados.gov.br/instrucao-rules-of-inda/)
+6 [Glossary] (Glossary) of the terms used in this kit
 
-### Criação de APIs de dados abertos
+## Guide to implementation of a Plan of Open Data
 
-* [CSV to API](https://github.com/project-open-data/csv-to-api) - Dinamicamente gera APIs Restful de arquivos CSVs estáticos 
-* [sandman](https://github.com/jeffknupp/sandman) - Cria API Restful automaticamente a partir de conexão com bancos de dados relacionais
+The creation and implementation of a Plan of Open Data for an institution can be organized into activity streams as in the following diagram:
 
-### Conversão de dados
+[<Img alt = "Diagram of the systemic process of a plan to open data" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Sist%C3%AAmico%20de%20um%20PDA.png">](Processo-sist%C3%AAmico)
 
-* [JSON-to-CSV Converter](http://konklone.io/json/) - Conversor manual e online de arquivos JSON para visulizar como planilha e baixá-la no formato CSV.
-* [dat](https://github.com/maxogden/dat) - Ferramenta para conversão e tranformação de dados em linha de comando
-* [csvkit](http://csvkit.readthedocs.org/en/0.8.0/) - Transformações e tratamento de arquivos csv
-* [ESRI2Open](http://github.com/project-open-data/esri2open) - Ferramenta que converte dados espaciais e não-espaciais do software proprietário ESRI em arquivos de dados abertos, CSV, JSON, ou GeoJSON
+This process can be seen in greater detail in the document [Systemic Process Plan Open Data - PDA] (Process-sist% C3% AAmico).
 
-### Higienização de dados
+The following sub-processes are detailed:
 
-* [Open Refine](http://openrefine.org/) - Limpeza e transformação de dados, unificação de registros duplicados, etc.
+* [Development of a PDA] (elaborates% C3% A7% C3% A3o-of-PDA)
+* [Running a PDA] (Execu% C3% A7% C3% A3o-of-PDA)
+  * [Opening databases] (Opening-of-data)
 
-## Mais Recursos
 
-* Guia de Dados Abertos ([_Open Data Handbook_](http://opendatahandbook.org/pt_BR/)) - da [_Open Knowledge_](https://okfn.org/)
-* [Manual dos dados abertos: governo](http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - do [W3C Brasil](http://www.w3c.br)
+## Tools
 
-## PDAs publicados
+This section is an illustrative and non-exhaustive list of useful tools for [projects opening data] (Opening-of-data). All are free tools, created by communities [free software] (Glossary # software-free), and can be used by government agencies without restriction. In general, solutions for extraction, handling and preparation of data for publication on the Internet. The list is based on the [Open _Project Data_] (http://project-open-data.github.io/#tools) and [_ODI open date Review_ tech] (https://github.com/dadosgovbr/open-date -tech-review / wiki). However, is restricted to tools that can be used without the need for programming knowledge.
 
-* [Plano de Dados Abertos do Ministério do Planejamento](http://www.planejamento.gov.br/aberto/pda/)
-* [Plano de Dados Abertos do Ministério da Justiça](http://participa.br/dadosabertos/galeria-encontro-nacional-de-dados-abertos/pdae-mj.pdf)
+### Creation of open data APIs
 
-## Legislação relacionada
+* [API to CSV] (https://github.com/project-open-data/csv-to-api) - Dynamically generates static Restful APIs CSVs files
+* [Sandman] (https://github.com/jeffknupp/sandman) - Creates Restful API automatically from connecting to relational databases
 
-* [Lei de acesso à informação](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) - Dispõe sobre o acesso a informações públicas, inclusive pela internet
-* [Decreto nº 7724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724) - Regulamenta a Lei de acesso à informação no âmbito do poder executivo federal
-* [Instrução Normativa da INDA](http://dados.gov.br/instrucao-normativa-da-inda/) - Institui a Infraestrutura Nacional de Dados abertos e seu funcionamento
-* [Decreto de 15 de setembro de 2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2011-09-15;seq-sf-0) - Institui o CIGA e o Plano Nacional de Governo Aberto
+### Data Conversion
+
+* [JSON-to-CSV Converter] (http://konklone.io/json/) - Converter manual and online JSON files to View member as spreadsheet and download it in CSV format.
+* [Dat] (https://github.com/maxogden/dat) - Tool for conversion and transformation of data from the command line
+* [Csvkit] (http://csvkit.readthedocs.org/en/0.8.0/) - Transformations and treatment of csv files
+* [ESRI2Open] (http://github.com/project-open-data/esri2open) - tool that converts spatial data and non-spatial ESRI software owner on open data files, CSV, JSON or GeoJSON
+
+### Sanitizing data
+
+* [Open Refine] (http://openrefine.org/) - Cleaning and data transformation, unification of duplicate records, etc.
+
+## More Resources
+
+* Guide to Open Data ([Date _open Handbook_] (http://opendatahandbook.org/pt_BR/)) - the [_open Knowledge_] (https://okfn.org/)
+* [Manual of open data: Government] (http://www.w3c.br/pub/Materiais/PublicacoesW3C/Manual_Dados_Abertos_WEB.pdf) - the [W3C Brazil] (http://www.w3c.br)
+
+## Published PDAs
+
+* [Open Data Plan of the Ministry of Planning] (http://www.planejamento.gov.br/aberto/pda/)
+* [Open Data Plan of the Ministry of Justice] (http://participa.br/dadosabertos/galeria-against-domestic-data-abertos/pdae-mj.pdf)
+
+## Related Legislation
+
+* [Access to Information Act] (http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527) - Provides for access to public information, including the Internet
+* [Decree No. 7724] (http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724) - Regulates Law of access to information under the federal executive power
+* [Instruction of INDA] (http://dados.gov.br/instrucao-rules-of-inda/) - Establishes the National Infrastructure of open data and its operation
+* [Decree of September 15, 2011] (http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2011-09-15;seq-sf-0) - Establishes the CIGA and the National Plan for Open Government

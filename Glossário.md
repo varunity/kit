@@ -1,352 +1,352 @@
 ---
 published: true
-permalink: /Glossário/
+permalink: / Glossary /
 layout: slate
 filename: Glossário.md
-title: Glossário - Kit de Dados Abertos
-desc: Neste glossário são descritos alguns termos utilizados no contexto das políticas e da implementação de dados abertos.
+title: Glossary - Open Data Kit
+desc: This glossary describes some terms are used in the context of policies and implementation of open data.
 ---
 
-Glossário
+Glossary
 ====
 
-Neste glossário são descritos alguns termos utilizados no contexto das
-políticas e da implementação de dados abertos.
+Described in this glossary are some terms used in the context of
+policies and the implementation of open data.
 
-## Termos
+## Terms
 
 ### A
 
 #### API
 
-[API](https://pt.wikipedia.org/wiki/Api), de _Application Programming Interface_
-(em português: Interface de Programação de Aplicativos) é um conjunto de rotinas
-e padrões estabelecidos por um software para a utilização das suas funcionalidades
-por aplicativos que não pretendem envolver-se em detalhes da implementação do
-software, mas apenas usar seus serviços.
+[APIs] (https://pt.wikipedia.org/wiki/Api) of _Application Programming Interface_
+(In Portuguese: Application Programming Interface) is a set of routines
+and standards set by software for the use of its features
+for applications that do not wish to engage in implementation details
+software, but only use their services.
 
-No contexto de desenvolvimento web, uma API, também chamda de
-[API web](https://pt.wikipedia.org/wiki/Api#API_Web), é um conjunto definido de mensagens de
-requisição e resposta HTTP, geralmente expressado nos formatos XML ou JSON. Ainda
-que termo seja um sinônimo para web service, a chamada Web 2.0 está aos poucos
-depreciando o modelo de serviços SOAP para a técnica REST.
+In the context of web development, an API, also of chamda
+[Web API] (https://pt.wikipedia.org/wiki/Api#API_Web) is a defined set of messages
+HTTP request and response, usually expressed in XML or JSON formats. Yet
+that term is a synonym for web service, the so-called Web 2.0 is slowly
+depreciating the model for technical services SOAP REST.
 
-#### Arquivo Legível por Máquina
+#### Machine Readable Files
 
-[Arquivo Legível por Máquina](https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=M)
-refere-se a informações ou dados que estejam em um formato que pode ser
-facilmente processado por um computador, sem intervenção humana,
-assegurando nenhum significado semântico está perdido
+[Machine Readable File] (https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=M)
+refers to information or data into a format that can be
+easily processed by a computer without human intervention,
+ensuring no semantic meaning is lost
 
 ### C
 
 #### CSV
 
-Pode significar
-[_Comma-Separated Values_](https://pt.wikipedia.org/wiki/Comma-separated_values)
-(valores separados por vírgula), ou ainda, _Character-Separated Values_
-(valores separados por caractere). É um formato para armazenamento de dados
-tabulares em texto. A codificação é muito simples: cada linha do arquivo
-representa uma linha na tabela, e as colunas são separadas por vírgula.
-Campos que podem conter vírgula devem ser delimitados
-por aspas. CSV é recomendado para representação de estrutura de dados mais
-simples, de natureza tabular, onde não existem subpropriedades ou listas,
-gerando um arquivo menor e mais leve para processamento. Arquivos CSV são
-processáveis diretamente por editores de planilhas, como o OpenOffice e o MS
+Can mean
+[_Comma-Separated Values_] (https://pt.wikipedia.org/wiki/Comma-separated_values)
+(Comma separated values) or, _Character-Separated Values_
+(Separated by character values). It is a format for storing data
+tabular text. The coding is very simple: each line of the file
+represents a row in the table, and the columns are separated by commas.
+Fields that can contain commas must be delimited
+by quotation marks. CSV is recommended for representing data structure more
+simple tabular in nature, where there are subproperties or lists,
+resulting in a smaller and lighter file for processing. CSV files are
+directly processable by editors spreadsheets like OpenOffice and MS
 Excel.
 
 ### E
 
-#### e-MAG
+And ####-MAG
 
-O [Modelo de Acessibilidade em Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-MAG) 
-(eMAG) consiste em um conjunto de recomendações a ser considerado para que o 
-processo de acessibilidade dos sítios e portais do governo brasileiro seja conduzido de forma padronizada e de fácil implementação.
+The [Accessibility Model in Electronic Government] (http://www.governoeletronico.gov.br/acoes-and-projetos/e-MAG)
+(EMAG) consists of a set of recommendations to be considered for the
+accessibility of the sites and portals of the Brazilian government process be conducted in a standardized manner and easy to implement.
 
-#### e-PING
+#### E-PING
 
-A arquitetura [ePING – Padrões de Interoperabilidade de Governo Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade) 
-– define um conjunto mínimo de premissas, políticas e especificações técnicas que regulamentam a utilização 
-da Tecnologia de Informação e Comunicação (TIC) no governo federal, estabelecendo as condições de interação 
-com os demais Poderes e esferas de governo e com a sociedade em geral.
+The [Epping architecture - Government Interoperability Standards Eletrônico](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade)
+- Defines a minimum set of assumptions, policies and specifications governing the use
+of Information Technology and Communication (ICT) in the federal government, establishing the conditions for interaction
+with the other branches and levels of government and society in general.
 
-#### e-PMG
+#### E-PMG
 
-O objetivo do  [Padrão de Metadados do Governo Eletrônico - e-PMG](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade/padrao-de-metadados-do-governo-eletronico-e-pmg)
-é assegurar às pessoas, que pesquisam as informações do governo brasileiro na Web, 
-o acesso rápido e eficiente a descrições dos recursos. Os elementos e-PMG têm o 
-propósito de facilitar a localização dos recursos que as pessoas necessitam, 
-mesmo que elas não possuam conhecimento detalhado da localização ou da entidade responsável pela informação.
+The purpose of the [Metadata Standard for Electronic Government - e-PMG](http://www.governoeletronico.gov.br/acoes-e-projetos/e-ping-padroes-de-interoperabilidade/padrao-de-metadados-do-governo-eletronico-e-pmg)
+is reassure people, researching information on the Web Brazilian government,
+fast and efficient access to descriptions of resources. The PMG-elements and have
+purpose of facilitating the location of the resources that people need
+even if they do not have detailed knowledge of the location or the entity responsible for the information.
 
-#### e-PWG
+#### E-PWG
 
-Os [Padrões Web em Governo Eletrônico (ePWG)](http://www.governoeletronico.gov.br/acoes-e-projetos/padroes-brasil-e-gov) 
-são recomendações de boas práticas agrupadas em formato de cartilhas com o objetivo 
-de aprimorar a comunicação e o fornecimento de informações e serviços prestados por 
-meios eletrônicos pelos órgãos do Governo Federal.
+The [Web Standards in Electronic Government (ePWG)] (http://www.governoeletronico.gov.br/acoes-and-projetos/padroes-Brazil-e-gov)
+are recommendations for best practices in grouped format booklets aimed
+enhance communication and providing information and services provided by
+electronic organs by means of the Federal Government.
 
-#### e-SIC
+#### And SIC-
 
-O [Sistema Eletrônico do Serviço de Informações ao Cidadão](http://www.acessoainformacao.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f) 
-(e-SIC) é o [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão) do poder executivo federal 
-prestado na web. Ele permite que qualquer pessoa, física ou jurídica, encaminhe pedidos de acesso à 
-informação, acompanhe o prazo e receba a resposta da solicitação realizada para órgãos 
-e entidades do Executivo Federal. O cidadão ainda pode entrar com recursos e apresentar 
-reclamações sem burocracia.
+The [System Electronic Information Service Citizen] (http://www.acessoainformacao.gov.br/sistema/site/index.html?ReturnUrl=%2fsistema%2f)
+(E-SIC) is the [Citizens Information Service] (# service-to-information-to-citizen) of the Federal Executive
+provided on the web. It allows any person or entity, forward requests for access
+information, follow the deadline and receive a response to the request made organs
+and entities of the Federal Executive. Citizens can still enter with resources and present
+complaints without bureaucracy.
 
 
-#### ETL
+ETL ####
 
-ETL, do inglês [Extract Transform Load](http://pt.wikipedia.org/wiki/Extract,_transform,_load) 
-(Extração Transformação Carga), são ferramentas de software cuja função é a extração 
-de dados de diversos sistemas, transformação desses dados conforme regras de negócios 
-e por fim a carga dos dados geralmente em um Data Mart e um Data Warehouse, porém nada 
-impede que também seja para enviar os dados para um determinado sistema da organização. 
-A extração e carga são obrigatórias para o processo, sendo a transformação/limpeza opcional, 
-mas que são boas práticas, tendo em vista que os dados já foram encaminhados para o 
-sistema de destino. É considerada uma das fases mais críticas do Data Warehouse e/ou Data Mart.
+ETL, English [Extract Transform Load] (http://pt.wikipedia.org/wiki/Extract,_transform,_load)
+(Extract Transform Load) tools are software whose function is the extraction
+data from various systems, transformation of these data as business rules
+and finally the load of data usually in a Data Mart and Data Warehouse but nothing
+prevents is also to send data to a particular system organization.
+The extraction and load are required for the process, and the transformation / optional cleaning
+but are good practice, given that the data have already been sent to the
+the target system. It is considered one of the most critical phases of Data Warehouse and / or Data Mart.
 
 ### G
 
 #### GeoJSON
 
-É um formato aberto baseado em [JSON](#json) para representar informações
-geográficas. Possibilita representar formas como pontos, linhas e polígonos
-com coordenadas geográficas, juntamente com seus atributos não-espaciais.
-O GeoJSON não é mantido por um órgão formal de padronização, como alguns
-outros formatos para informações geográficas. Em vez disso, ele é
-[especificado](http://geojson.org/geojson-spec.html)
-por um grupo de trabalho de desenvolvedores.
+It is an open format based on [JSON] (# json) to represent information
+geographical. Enables representing forms such as points, lines and polygons
+with geographic coordinates, along with their non-spatial attributes.
+The GeoJSON is not maintained by a formal standardization body, as some
+other formats for geographic information. Instead, it is
+[Specified] (http://geojson.org/geojson-spec.html)
+by a working group of developers.
 
 ### H
 
 #### Hackathon
 
-Um [hackathon](http://en.wikipedia.org/wiki/Hackathon)
-(também conhecido como um Hack Day, Hackfest ou codefest) é um
-evento em que programadores e outras pessoas envolvidas em desenvolvimento
-de software, incluindo designers gráficos, designers de interface e gerentes
-de projeto, colaboram intensamente em projetos de software em um período
-de tempo curto, que pode durar de 24 horas a 1 semana.
+A [hackathon] (http://en.wikipedia.org/wiki/Hackathon)
+(Also known as a Hack Day, Hackfest or codefest) is a
+event where programmers and others involved in development
+software, including graphic designers, interface designers and managers
+project, collaborate intensively on software projects in a period
+short time which can last from 24 hours to 1 week.
 
-#### Hacker Cívico
+#### Civic Hacker
 
-[Hacker Cívico](http://www.codeforamerica.org/blog/2013/05/06/what-is-a-civic-hacker/)
-são tecnólogos, servidores públicos, designers, empresários, engenheiros -
-qualquer um - que está disposto a colaborar com os outros para criar, construir e
-inventar para resolver problemas relevantes para nossos bairros, nossas cidades,
-nossos estados e nosso país.
+[Civic Hacker] (http://www.codeforamerica.org/blog/2013/05/06/what-is-a-civic-hacker/)
+are technologists, government officials, designers, entrepreneurs, engineers -
+anyone - who is willing to collaborate with others to create, build and
+invent to solve problems relevant to our neighborhoods, our cities,
+our states and our country.
 
 ### J
 
 #### JSON
 
-É um acrônimo para
-[_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
-É um padrão aberto de estruturação de dados baseado em texto e legível por
-humano. A especificação é a [RFC 7159](https://tools.ietf.org/html/rfc7159).
-JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
-em páginas web com Javascript (técnica denominada "Ajax"). A serialização em
-JSON é muito simples e resulta em uma
-estrutura pouco verbosa o que se mostra uma ótima alternativa para o XML.
-JSON possibilita serialização de estrutura de objetos complexos, como listas e
-subpropriedades. JSON está se tornando o padrão mais utilizado para integração
-de dados entre repositórios e frameworks, também está se tornando o padrão
-nativo de armazenamento em alguns bancos de dados modernos.
+It is an acronym for
+[_JavaScript Object Notation_] (https://pt.wikipedia.org/wiki/JSON).
+It is an open standard data structuring text-based and readable
+human. The specification is the [RFC 7159] (https://tools.ietf.org/html/rfc7159).
+JSON gained increased use with the use of dynamic load Content
+web pages with Javascript (technique called "Ajax"). The serialization
+JSON is very simple and results in a
+little verbose structure which shows a great alternative to XML.
+JSON serialization allows the structure of complex objects, such as lists and
+subproperties. JSON is becoming the most widely used standard for integration
+data between repositories and frameworks, is also becoming the standard
+native storage in some modern databases.
 
 ##### JSON-LD
 
-É um formato baseado em
-[JSON para Linked Data](https://en.wikipedia.org/wiki/JSON-LD), também
-[padronizado](http://www.w3.org/TR/json-ld/) em 2014.
-Traz todas as vantagens do formato JSON. A estrutura de mapeamento para IRIs
-pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
-o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
-um documento JSON comum.
+It is a format based on
+[JSON for Linked Data] (https://en.wikipedia.org/wiki/JSON-LD), also
+[Standardized] (http://www.w3.org/TR/json-ld/) in 2014.
+Brings all the advantages of JSON format. A mapping framework for IRIs
+can optionally be separated into a JSON document context, which leaves
+the main JSON, where the data are essentially the same structure that
+JSON a common document.
 
 ### K
 
 #### KML
 
-Acrônimo para
-_[Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)_.
-É um formato baseado em XML, desenvolvido originalmente pelo Google e depois
-[padronizado](http://www.opengeospatial.org/standards/kml) pelo Open Geospatial
-Consortium. Pode representar informações geográficas, tais como
-marcadores de local, imagens, polígonos, modelos tridimensionais ou descrições
-textuais, usando coordenadas de latitude, longitude e elevação conforme o
-sistema [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System).
+Acronym for
+[Keyhole Markup Language] (https://en.wikipedia.org/wiki/Keyhole_Markup_Language) _. _
+It is an XML-based format, originally developed by Google and later
+[Standardized] (http://www.opengeospatial.org/standards/kml) by Open Geospatial
+Consortium. May represent geographical information, such as
+placemarks, images, polygons, three dimensional models, or descriptions
+textual, using latitude, longitude and elevation coordinates as
+[WGS84] (https://en.wikipedia.org/wiki/World_Geodetic_System). system
 
-Em alguns casos os arquivos KML são distribuídos compactados no formato zip,
-e o arquivo compactado recebe a extensão .kmz.
+In some cases the KML files are distributed compressed in zip format
+and receives the compressed file to kmz extension.
 
 ### L
 
 #### LAI
 
-*Vide [Lei de Acesso à Informação](#lei-de-acesso-à-informação)*
+* See [Law on Access to Information] (# law-of-access-to-information) *
 
-#### Lei de Acesso à Informação
+#### Law on Access to Information
 
-A [Lei nº 12.527/2011](http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527), conhecida como Lei de Acesso à Informação - LAI, regulamenta 
-o direito, previsto na Constituição, de qualquer pessoa solicitar e receber dos 
-órgãos e entidades públicos, de todos os entes e Poderes, informações públicas 
-por eles produzidas ou custodiadas.
+The [Law No. 12,527 / 2011] (http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527), known as the Access to Information Act - LAI regulates
+the right, under the Constitution, any person requesting and receiving of
+public bodies and entities of all beings and powers, public information
+custody or produced by them.
 
-A Controladoria Geral da União mantém 
-[site com mais informações sobre a lei](http://www.acessoainformacao.gov.br/perguntas-frequentes-2/aspectos-gerais-da-lei).
+The Comptroller General retains
+[Website with more information about the law] (http://www.acessoainformacao.gov.br/perguntas-frequent-2/aspectos-general-of-law).
 
 ### M
 
-#### Método Ágil
+#### Agile Method
 
-Desenvolvimento ágil de software ou
-[Método ágil](http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
-é um conjunto de metodologias de desenvolvimento de software. O desenvolvimento ágil,
-tal como qualquer metodologia de software, providencia uma estrutura conceitual para
-reger projetos de engenharia de software.
+Agile software development or
+[Agile Method] (http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
+is a set of software development methodologies. Agile development,
+like any software methodology, provides a conceptual framework for
+govern projects of software engineering.
 
-O [Manifesto Ágil](http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
-é uma declaração de princípios que fundamentam o desenvolvimento ágil de software.
+The [Agile Manifesto] (http://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software)
+is a statement of principles that underpin agile software development.
 
-### O
+The ###
 
 #### ODS
 
-Significa
-[_Open Document Spreadsheet_](https://pt.wikipedia.org/wiki/OpenDocument).
-É um formato não proprietário de arquivo basedo em XML, padronizado pela
-<abbr name="Associação Brasileira de Normas Técnicas">ABNT</abbr>
-sob a norma
-[NBR ISO/IEC 26300:2006](http://www.abntcatalogo.com.br/norma.aspx?ID=1549).
-É comumente chamado de planilha, similar
-ao XLS do MS Office Excel, porém aberto, por isso deve ser utilizado em
-substituição ao XLS. Planilhas são largamente utilizadas, são de fácil
-utilização e manipuláveis por diversos aplicativos. Apesar de ser um formato
-estruturado, é muito flexível, possibilitando manipulação e mistura de
-diversos tipos de dados, como imagens e textos formatados. Para a publicação
-de dados abertos tabulares, é recomendável a utilização de CSV, pela sua
-simplicidade e padronização.
+Means
+[_open Document Spreadsheet_] (https://pt.wikipedia.org/wiki/OpenDocument).
+It is a non-proprietary file format XML Based on significant, standardized by
+<Abbr name = "Brazilian Association of Technical Standards"> ABNT </ abbr>
+under standard
+[ISO / IEC 26300: 2006] (http://www.abntcatalogo.com.br/norma.aspx?ID=1549).
+It is commonly called a spreadsheet, similar
+XLS to MS Office Excel, but open, so it should be used in
+replacing the XLS. Spreadsheets are widely used, are easily
+used and manipulated by different applications. Although a format
+structured, is very flexible, enabling manipulation and mixing
+various types of data such as images and formatted text. For publication
+open tabular data, it is recommended to use CSV, for its
+simplicity and standardization.
 
 
 #### OGP
 
-OGP é o acrônimo para Open Government Partnership traduzindo em português para
-Parceria para Governo Aberto - *Vide [Parceria para Governo Aberto](#parceria-para-governo-aberto)*
+OGP is the acronym for Open Government Partnership in translating to Portuguese
+Open Government Partnership - * See [Open Government Partnership] (# partnership-for-government-opened) *
 
 ### P
 
 #### PDA
 
-*Vide [Plano de Dados Abertos](#plano-de-dados-abertos)*
+* See [Open Data Plan] (# plan-data-opened) *
 
-#### Plano de Dados Abertos
+#### Open Data Plan
 
-O [Plano de Dados Abertos](http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c819) 
-orienta as ações de implementação e promoção de abertura de dados, inclusive geoespacializados, 
-de uma organização. O documento faz parte da política de dados abertos, e seu objetivo é 
-organizar e padronizar os processos de publicação de dados abertos do estado, resultando 
-na melhoria da qualidade dos serviços prestados ao cidadão e à própria administração pública.
+The [Open Data Plan] (http://www.planejamento.gov.br/editoria.asp?p=editoria&index=115&ler=c819)
+guides the actions of implementation and promotion of open data, including spatial distribution,
+of an organization. The document is part of the open data policy, and its goal is
+organize and standardize the processes of publishing open data state, resulting
+improving the quality of services provided to citizens and the public administration itself.
 
-#### Parceria para Governo Aberto
+#### Open Government Partnership
 
-A Parceria para Governo Aberto([site da CGU](http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp)) 
-ou OGP (do inglês Open Government Partnership - [site oficial](http://www.opengovpartnership.org/)), 
-lançada em 2011, é uma iniciativa internacional que pretende difundir e incentivar 
-globalmente práticas governamentais relacionadas à transparência dos governos, 
-ao acesso à informação pública e à participação social.
+The Open Government Partnership ([site CGU] (http://www.cgu.gov.br/governoaberto/a-ogp/iniciativa.asp))
+or OGP (English Open Government Partnership - [official website] (http://www.opengovpartnership.org/))
+launched in 2011, is an international initiative that aims to disseminate and encourage
+globally governmental practices related to government transparency,
+access to public information and social participation.
 
 ### R
 
-#### RDF
+RDF ####
 
-A família de formatos
-[RDF](https://pt.wikipedia.org/wiki/Resource_Description_Framework)
-baseia-se em um metamodelo de grafos para indicar os relacionamentos entre
-os nós, onde cada nó pode ser qualquer coisa sobre a qual queira se afirmar
-algo. Esse metamodelo possibilita estabelecer relações semânticas entre os
-dados, ao descrevê-los conforme um modelo (vocabulário ou ontologia)
-preestabelecido para aquele domínio da informação.
+The family of formats
+[RDF] (https://pt.wikipedia.org/wiki/Resource_Description_Framework)
+is based on a metamodel graph to indicate the relationships between
+nodes, where each node can be anything about which wants to assert
+something. This metamodel allows to establish semantic relations between the
+data, to describe them as a model (vocabulary or ontology)
+preset information for that domain.
 
-Dados conforme esse metamodelo de grafos podem ser armazenados em bancos de
-dados especializados, chamados _triple stores_, ou bancos de triplas, numa
-referência à forma de descrever o grafo listando cada tripla nó-aresta-nó,
-representando sujeito, predicado e objeto.
+This meta-data as graphs can be stored in databases
+specialized data, called stores_ _triple or triple banks, a
+reference to how to describe the graph listing each triple node-edge-node,
+representing subject, predicate and object.
 
-Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
-as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
-caracteres: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
+When recording RDF data in a file, however, you must choose one of
+multiple syntaxes possible to represent the graph as a sequence of
+characters: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
 
-##### RDF/XML
+##### RDF / XML
 
-A sintaxe original, quando o padrão RDF foi inicialmente estabelecido, foi a
-baseada em XML. Por ser a primeira sintaxe para RDF, o seu suporte em
-ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
-sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
-difícil leitura.
+The original syntax, when the RDF was initially set standard, was
+based on XML. As the first syntax for RDF, your support
+tools is excellent. Moreover, the verbosity of the XML and
+its hierarchical structure, the generated files are usually complex and
+difficult to read.
 
 ### S
 
 ##### Shapefile
 
-Formato aberto para dados geoespaciais, desenvolvido pela empresa Esri, que
-produz soluções de software para sistemas de informações geográficas (GIS).
-Apesar de ser mantido por uma empresa, a sua
-[especificação](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
-é aberta e é implementada por praticamente todas as ferramentas de GIS.
+Open for geospatial data format developed by ESRI, which
+produces software solutions for geographic information systems (GIS).
+Despite being maintained by a company, its
+[Specification] (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
+is open and is implemented by virtually all GIS tools.
 
-#### Software Livre
+#### Free Software
 
-[Software Livre](https://pt.wikipedia.org/wiki/Software_livre) é uma forma de manifestação
-de um software em que, resumidamente, permite-se adaptações ou modificações em seu código
-de forma espontânea, ou seja, sem que haja a necessidade de solicitar permissão ao seu
-proprietário para modificá-lo.
+[Free Software] (https://pt.wikipedia.org/wiki/Software_livre) is a manifestation of
+a software in which, briefly, it allows adaptations or modifications to your code
+spontaneously, ie without the need to request permission to its
+owner to modify it.
 
-#### SIC
+SIC ####
 
-*Vide [Serviço de Informações ao Cidadão](#serviço-de-informações-ao-cidadão)*
+* See [Citizen Information Service] (# service-to-information-to-citizen) *
 
-#### Serviço de Informações ao Cidadão
+#### Citizen Information Service
 
-Conforme o [decreto nº 7.724](http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724), 
-que regulamenta a [Lei de Acesso à Informação](#lei-de-acesso-à-informação) 
-no âmbito do poder executivo federal, o Serviço de Informações ao Cidadão tem o objetivo de:
-1. atender e orientar o público quanto ao acesso à informação; 
-2. informar sobre a tramitação de documentos nas unidades; e 
-3. receber e registrar pedidos de acesso à informação.
+As the [Decree No. 7724] (http://www.lexml.gov.br/urn/urn:lex:br:federal:decreto:2012-05-16;7724)
+regulating the [Law on Access to Information] (# law-of-access-to-information)
+within the federal executive branch, the Citizens Information Service aims to:
+1. help and advise the public on access to information;
+2 report on the processing of documents in the units; and
+3 receive and log requests for access to information.
 
-e as seguintes competências:
-1. - o recebimento do pedido de acesso e, sempre que possível, o fornecimento imediato da informação;
-2. - o registro do pedido de acesso em sistema eletrônico específico e a entrega de número do protocolo, que conterá a data de apresentação do pedido; e
-3. - o encaminhamento do pedido recebido e registrado à unidade responsável pelo fornecimento da informação, quando couber. 
+and the following skills:
+1 - receipt of the request for access and, where possible, the immediate provision of information;
+2 - the record of the request for access to specific electronic system and the delivery protocol number, which will contain the date of application; and
+3 - routing the request received and registered the party responsible for providing information unit, where applicable.
 
-O SIC será instalado em unidade física identificada, de fácil acesso e aberta ao público. 
-1. Nas unidades descentralizadas em que não houver SIC será oferecido serviço de recebimento e registro dos pedidos de acesso à informação. 
-2. Se a unidade descentralizada não detiver a informação, o pedido será encaminhado ao SIC do órgão ou entidade central, que comunicará ao requerente o número do protocolo e a data de recebimento do pedido, a partir da qual se inicia o prazo de resposta. 
+The SIC will be installed in physical unit identified, easily accessible and open to the public.
+1 In the decentralized units where there is no SIC will be offered to receive and log service requests for access to information.
+2 If the decentralized unit does not hold the information, the request will be forwarded to the central SIC organ or entity, shall notify the applicant that the protocol number and the date of receipt of the application, from which begins the period for response.
 
-As organizações também dispõe de serviços de informação ao cidadão de maneira eletrônica. 
-A CGU centraliza os pedidos ao executivo federal através do [e-SIC](#e-sic).
+Organizations also have information to citizen services electronically.
+The CGU centralized orders by the federal executive [e-SIC] (# e-sic).
 
 ### T
 
 ##### Turtle
 
-Turtle significa "_[Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_(syntax))_",
-ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
-para leitura tanto por humanos quanto por máquinas e
-[padronizada](http://www.w3.org/TR/turtle/) em 2014.
-A indentação e o uso de prefixos são
-elementos que facilitam a leitura, assim como o agrupamento de triplas que
-possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
+Turtle means "_ [Terse RDF Triple Language] (https://en.wikipedia.org/wiki/Turtle_ (syntax)) _"
+or succinct language of RDF triples. Was created as a simplified syntax
+read by both humans and by machines and
+[Standardized] (http://www.w3.org/TR/turtle/) in 2014.
+The indentation and the use of prefixes are
+elements that facilitate the reading, as well as the grouping of triples that
+have the same subject or having the same subject and the same predicate.
 
 ### X
 
 #### XML
 
-XML significa [Extensible Markup Language](http://pt.wikipedia.org/wiki/XML),
-e é uma sintaxe para codificar documentos em um formato legível por máquina.
-É baseado em texto e tem como alguns de seus
-[objetivos](http://www.w3.org/TR/REC-xml/#sec-origin-goals) a facilidade de
-uso e legibilidade.
+Means XML [Extensible Markup Language] (http://pt.wikipedia.org/wiki/XML)
+and is a syntax for encoding documents in a machine-readable format.
+It is text-based and has as some of its
+[Goals] (http://www.w3.org/TR/REC-xml/#sec-origin-goals) ease of
+use and readability.
 
 

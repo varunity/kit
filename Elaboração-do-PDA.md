@@ -1,86 +1,86 @@
 ---
 published: true
-permalink: /Elaboração-do-PDA/
+permalink: / Preparation-of-PDA /
 layout: slate
-filename: Elaboração-do-PDA.md
-title: Elaboração do PDA - Kit de Dados Abertos
-desc: Este documento se dispõe a resumir os principais passos do manual e trazer novas referências.
+filename: Development-of-PDA.md
+title: Development of PDA - Open Data Kit
+desc: This document sets out to summarize the main steps of the manual and bring new references.
 ---
 
-Elaboração do Plano de Dados Abertos
+Elaboration of the Open Data
 ====
 
-O conteúdo que orienta a criação de um PDA está estruturado no
-[Manual para elaboração de Plano de Dados Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf). 
-Este documento se dispõe a resumir os principais passos do manual e trazer
-novas referências.
+The content that guides the creation of a PDA is structured in
+[Manual for preparation of Plan Data Abertos](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf).
+This document sets out to summarize the main steps of the manual and bring
+new references.
 
-Antes de mergulhar na construção do PDA, há uma etapa anterior muito importante:
-Definir quem serão os responsáveis pela iniciativa e reunir as pessoas
-relevantes para as atividades em questão. Essas atividades estão estruturadas no
-[processo sistêmico]({{ site.baseurl }}Processo-sistêmico),
-vale a pena conferir antes de começar..
+Before diving into the construction of the PDA, there is a very important previous step:
+Define who will be responsible for the initiative and bring people together
+relevant to the activities in question. These activities are structured in
+[Systemic process] ({{}} site.baseurl Process-systemic),
+worth checking before you start ..
 
-De maneira resumida, o processo de criação do PDA se resume a 4 etapas:
+Briefly, the process of creating the PDA boils down to four steps:
 
-## Organizar Inventário de Dados
+## Organize Inventory Data
 
-Antes de definir quais dados são publicados é imprescindível que a organização faça
-um levantamento de quais dados possui. Apesar de ser muito útil, poucos órgãos
-públicos tem esse levantamento feito.
+Before defining what data is published it is essential that the organization makes
+a survey of what data has. Despite being very useful, few organs
+public has this survey.
 
-Existem algumas formas de fazer esse levantamento, provavelmente a melhor estratégia é uma combinação delas:
+There are a few ways to do this survey, probably the best strategy is a combination of them:
 
-* Levantar, junto com os representantes das diversas áreas, quais são os sistemas usados por cada uma
-* Fazer uma lista com os dados pedidos pelo SIC
-* Caso a manutenção de todos os sistemas seja centralizada em uma única área de TI, obter a lista dos sistemas com a área
-
-
-## Priorizar os dados que serão abertos
-
-A priorização ocorre porque não vale a pena a organização fazer um esforço para publicar todos os seus dados simultaneamente, o custo é alto e não implica necessariamente na publicação de **dados relevantes para o público**. 
-
-Conforme o [manual para elaboração de PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), a etapa de priorização deve considerar esses critérios:
-
-1. O grau de relevância para o cidadão, observando-se especialmente as **demandas encaminhadas via e-SIC**, bem como os setores e serviços mais procurados nos sítios eletrônicos do órgão. Adicionalmente, a organização pode também realizar um encontro com os principais consumidores de seus dados (ex: organizações da sociedade civil, ONGs, pesquisadores, outros órgãos públicos) para entender aonde concentram-se suas necessidades;
-2. Os normativos legais e os compromissos formalmente assumidos pelo órgão, inclusive perante organismos internacionais (ex: [OGP]({{ site.baseurl }}Glossário#ogp)); 
-3. O alinhamento perante o Planejamento Estratégico Institucional (PEI) e os planejamentos setoriais, bem como os relacionados às áreas de tecnologia da informação;
-4. O conjunto de informações e sistemas sob a gestão do órgão, em especial, se houver, sistemas estruturadores que são de uso obrigatório transversal para os órgãos da APF;
-5. O nível de maturidade e organização das informações e dados existentes.
-
-Outra fonte importante para orientação é a lista de [conjuntos de dados de alto valor](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#action-2-release-of-high-value-data), 
-trazida pelo [Open Data Charter](https://www.gov.uk/government/publications/open-data-charter) do [G8](http://en.wikipedia.org/wiki/G8).
-
-## Definir estratégias de abertura
-
-Priorizados os dados mais importantes, é hora de definir de que forma eles serão publicados. Essa forma será influenciada pelos seguintes fatores:
-
-* Local onde os dados estão estruturados
-* Forma como os dados estão estruturados
-* Capacidade técnica da organização
-
-Na prática, esses fatores se traduzem em possíveis cenários de status dos dados, como dados estruturados em várias planilhas, bancos de dados locais, bancos de dados situados no fornecedor, conjuntos muito volumosos, plataforma alta ou baixa, data warehouse, etc. 
-
-Cada cenário envolve uma tática diferente, em casos de dados muito volumosos, uma separação em diversos arquivos compactados, por exemplo, ou a criação de API, a depender também da capacidade dos órgãos. Dados de data warehouse devem ser evitados por causa dos princípios dos dados brutos e primários, mas excepcionalmente podem ser utilizados quando a extração direta não for viável.
-
-Além da forma de publicação, a periodicidade de publicação e a forma de hospedagem precisam ser definidas, a depender das particularidades da área de negócio, dos sistemas de informação relacionados e dos recursos de infraestrutura disponíveis.
+* Lift, along with representatives of different areas, which are the systems used by each
+* Make a list of the requested data by SIC
+* If the maintenance of all systems is centralized in one area of ​​IT, get the list of systems in the area
 
 
-## Definir cronograma e marcos
+## Prioritize the data that will be opened
 
-Nesse momento já está definido, para cada um dos dados priorizados, a tática de publicação, dentro das limitações da organização e das particularidades das bases de dados. Resta agora pensar nas datas de publicação de cada um deles.
+The prioritization is because it is not worth the organization make an effort to publish all their data simultaneously, the cost is high and does not necessarily imply the publication of ** data relevant to the public. **
 
-Essa é a ocasião certa para pensar em ações de comunicação e articulação com a sociedade civil para 
-aumentar a legitimidade e potencializar a publicação dos dados. Conforme o [Manual para elaboração de 
-PDA]((http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf)), exemplos de ação como essas são: 
+As the [Manual for drafting PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), the prioritization step should consider these criteria:
 
-* realizar encontros com os interessados nos dados
-* realizar concursos de aplicativos (exemplos notórios: [concursos do MJ](http://www.justica.gov.br/dados-abertos), 
-[concursos do INEP](http://hackathondadoseducacionais.org.br/), 
-[concurso do Ministério Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/), 
-[Desarrollando América Latina](http://desarrollandoamerica.org/))
-* utilizar os dados mais pedidos do SIC
-* estimular o uso interno e por outros órgãos públicos dos dados publicados
-* disseminar na organização a cultura de acesso à informação e de disponibilização de dados públicos.
+1 The degree of relevance to citizens, observing especially ** demands routed via SIC ** and services sectors and most popular sites on the electronic organ. Additionally, the organization can also hold a meeting with the main consumers of your data (eg civil society, NGOs, researchers, other public bodies) to understand where to focus their needs;
+2 The legal and normative commitments formally undertaken by the agency, including before international bodies (eg [OGP] ({{}} site.baseurl Glossary # OGP));
+3 The alignment to the Institutional Strategic Planning (IEP) and sectoral planning, as well as those related to the areas of information technology;
+4 The set of information and systems under the management of the body, especially if any, structuring systems that are mandatory for cross bodies of APF;
+5 The level of maturity and organization of existing information and data.
+
+Another important source for guidance is a list of [datasets high valor](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#action-2-release-of-high-value-data),
+brought by the [Open Data Charter] (https://www.gov.uk/government/publications/open-date charter) the [G8] (http://en.wikipedia.org/wiki/G8).
+
+## Developing strategies for opening
+
+Prioritized the most important data, it's time to define how they will be published. This form will be influenced by the following factors:
+
+* Location where data are structured
+* How the data is structured
+* Technical capacity of the organization
+
+In practice, these factors translate into possible scenarios of status data as structured data in multiple spreadsheets, local databases, databases located on the supplier, bulky sets, high or low platform, data warehouse, etc.
+
+Each scenario involves a different tactic, in cases of very large data, a separation in various archives, for example, or creating API, also dependent on the ability of the organs. Data warehouse should be avoided because of the principles of raw and primary data, but may exceptionally be used when direct extraction is not feasible.
+
+Besides the form of publication, frequency of publication and the form of hosting need to be defined, depending on the particularities of the business area of ​​information systems and related infrastructure resources available.
+
+
+## Set schedule and milestones
+
+That time is already set, for each of the prioritized data, the tactic of publishing within the constraints of the organization and characteristics of databases. It remains now to think about the publication dates of each.
+
+This is the right time to think about healthcare communication and coordination with civil society to
+increase the legitimacy and leverage data publishing. As the [Manual for drafting
+PDA]((http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf)), share examples of how these are:
+
+* Hold meetings with stakeholders in the data
+* Hold contests applications (notable examples: (http://www.justica.gov.br/dados-open [contests MJ]),
+[Contests INEP] (http://hackathondadoseducacionais.org.br/)
+[Contest of the Ministry Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/),
+[Desarrolando Latin America] (http://desarrollandoamerica.org/))
+* Use the data more requests SIC
+* Stimulate internal use and other public bodies of published data
+* Disseminate the culture in the organization of access to information and availability of public data.
 
 

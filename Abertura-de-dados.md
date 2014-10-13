@@ -1,242 +1,242 @@
 ---
 published: true
-permalink: /Abertura-de-dados/
+permalink: / Opening-of-data /
 layout: slate
-filename: Abertura-de-dados.md
-title: Processo de abertura de bases de dados - Kit de Dados Abertos
-desc: Este é o processo que será executado em cada projeto de abertura de dados da instituição.
+filename: Opening-of-dados.md
+TITLE: opening databases Procedure - Set Open Data
+desc: This is the process that runs on each start up project data of the institution.
 ---
 
-Processo de abertura de bases de dados
+Database-opening
 ====
 
-Este é o processo que será executado em cada projeto de abertura de dados
-(por exemplo, o projeto da abertura de uma base de dados de um sistema de
-informação de uma área de negócio específica). A depender da capacidade
-da instituição, poderá ser executada uma ou mais instâncias desse processo
-simultaneamente em um dado momento.
+This is the process that runs on each start up project data
+(For example, opening a project database of a system
+information in a specific business area). Depending on the capacity
+the institution, may be performed one or more instances of this process
+simultaneously at any given time.
 
-Obs.: "Aberto por padrão". <a name="restricao"></a>
-Este processo se refere às atividades para abertura dos dados de um
-sistema/solução pré-existente. São, na verdade, "correções" de sistemas
-que ainda não possuem dados abertos. É importante que, no futuro, os
-sistemas sejam projetados para que já forneçam dados desde sua concepção.
-Todo sistema informacional público que não lide com informações que se
-encontrem dentro das exceçõs da [LAI]({{ site.baseurl }}Glossário#lai) deve ter seus dados
-abertos por padrão.
+Note .: "open by default". <a name="restricao"> </a>
+This process refers to the activities for opening data of a
+pre-existing system / solution. Are actually "fixes" systems
+that do not have open data. It is important that, in future,
+systems are designed to provide data that already since its inception.
+Every public informational system that does not deal with information that is
+find within the exceçõs [LAI] ({{}} site.baseurl Glossary # lai) must have their data
+open by default.
 
-[<img alt="Diagrama do processo de abertura de um conjunto de dados" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png)
+[<Img alt = "Diagram of opening a data process" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Abertura%20base%20de%20dados%20-%20com%20titulo.png)
 
-## Documento Plano de Dados Abertos - PDA
+## Plan Document Open Data - PDA
 
-O PDA da instituição norteará o processo de abertura de
-dados quanto ao escopo, prazo estimado, partes interessadas, entre outros.
-Deve-se trazer do Plano de Dados Abertos para o Projeto de Abertura de Dados
-as suas partes que tratem dos seguintes aspectos:
+The PDA institution guide the process of opening
+data on the scope, estimated timeframe, stakeholders, among others.
+Should bring the Plan to Open Data Project Open Data
+the parts dealing with the following aspects:
 
-* Escopo
-  * **dos dados**: qual é (ou quais são) as bases de dados, quais são as tabelas,
-    planilhas, parte ou secção dos dados é viável para essa iteração do
-    processo de abertura;
-  * **de granularidade**: se os dados serão separados por algum critério
-    temporal ou espacial;
-  * **qualidade mínima tecnológica, definindo, por exemplo**:
-    * a forma de disponibilização dos dados (se será desenvolvida uma
-      [API]({{ site.baseurl }}Glossário#api) de dados abertos ou se serão apenas
-      disponibilizados arquivos com as extrações, por exemplo);
-    * se será estabelecido algum relacionamento dos dados com uma fonte
-      externa de dados abertos ou não;
-    * se será realizada processo de higienização dos dados (por exemplo,
-      correção de inconsistências ou de registros duplicados);
-* Prazo estimado, considerando:
-    * compromissos que possam ter sido assumidos em
-      outros planos além do PDA (ex.: planejamento estratégico institucional e
-      de tecnologia da informação, plano diretor de tecnologia da informação,
-      plano de ação da [Parceria para Governo Aberto](http://www.cgu.gov.br/governoaberto/), etc.);
-    * capacidade de execução do projeto (quantitativo de pessoal capacitado,
-      infraestrutura tecnológica, maturidade com o processo de abertura de
-      dados);
-* Partes interessadas: representante do comitê que acompanha a execução do
-    PDA, gestor da área responsável pelas bases de dados, especialistas com
-    conhecimento do negócio, gestor da área de TI, desenvolvedores,
-    analistas de dados, potenciais usuários (orgãos, empresas, especialistas), 
-    entre outros.
+* Scope
+  * ** Data **: what is (or what) databases, which are the tables,
+    spreadsheets, part or section of data is feasible for this iteration of
+    opening process;
+  * ** ** Granularity: if the data are separated by some criterion
+    temporal or spatial;
+  * Minimum ** technological quality, defining, for example **:
+    * The form of data availability (if one is developed
+      [API] ({{}} site.baseurl Glossary # api) open data or will only
+      files available to the extraction, for example);
+    * If any relationship with a source of data will be established
+      external open data or not;
+    * It will be held sanitization process data (eg,
+      correct inconsistencies or duplicate records);
+* Estimated considering:
+    * Commitments that may have been made in
+      other plans besides the PDA (eg .: institutional strategic planning and
+      of information technology master plan for information technology,
+      action plan [Open Government Partnership] (http://www.cgu.gov.br/governoaberto/), etc.);
+    * Ability to execute the project (quantity of skilled personnel,
+      technology infrastructure maturity with the process of opening
+      data processing);
+* Stakeholders: representative of the committee that monitors the implementation of
+    PDA, area manager responsible for databases, with experts
+    business knowledge, manager of IT, developers,
+    data analysts, potential users (organs, enterprises, experts),
+    among others.
 
-Caso o Plano de Dados Abertos tenha sido omisso em relação a algum desses
-aspectos, eles deverão ser definidos durante a
-[reunião de início de projeto](#reuni%C3%A3o-de-in%C3%ADcio-de-projeto).
+If the Plan Open Data has been silent on some of these
+aspects, they should be defined during the
+[Project kickoff meeting] (# reunite% C3% A3o-in-a% C3% ADcio-of-project).
 
-*Insumo para:*
+* Input to: *
 
-* [Reunião de início de projeto](#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)
-* [Decidir qualidade mínima](#decidir-qualidade-m%C3%ADnima)
+* [Meeting project initiation] (# reunite% C3% A3o-in-a% C3% ADcio-of-project)
+* [Deciding minimum quality] (# decide quality-m% C3% ADnima)
 
-## Reunião de início de projeto
+## Meeting of project initiation
 
-Nessa primeira reunião entre as partes interessadas no projeto serão revisados
-o escopo e o prazo estimado do projeto, já definidos no [Plano de Dados Abertos](#documento-plano-de-dados-abertos) 
-da instituição. Eventualmente algumas pessoas participarão transversalmente de 
-vários projetos de abertura de dados na instituição. Por exemplo, pessoas do 
-departamento de TI executando as atividades de fornecimento de infraestrutura e/ou desenvolvendo software.
+At this first meeting between the stakeholders in the project will be reviewed
+the scope and the estimated term of the project, as defined in [Plan Open Data] (# document-data-plan-open)
+the institution. Eventually some people participate across from
+several projects opening data in the institution. For example, people
+IT department running the activities of provision of infrastructure and / or developing software.
 
-Um aspecto que tem grande impacto no escopo e prazo estimados para o projeto é
-a escolha da forma de publicação dos dados. Por exemplo, desenvolver uma API de
-dados abertos requer um maior esforço do que simplesmente publicar arquivos
-estáticos.
-Mas, se o volume de dados é grande, pode ser vantajoso para o cidadão poder se
-utilizar dos métodos de consulta e filtros que uma API pode oferecer para
-receber apenas os dados que lhe interessam.
-Algumas das considerações para se decidir sobre a necessidade ou não do
-desenvolvimento da API são mostradas no artigo chamado
-[*"Você realmente precisa de uma API ?"*](https://www.peterkrantz.com/2012/publishing-open-data-api-design/).
+One aspect that has great impact on the scope and estimated time for the project is
+the choice of the form of publication of the data. For example, developing an API
+open data requires more effort than simply publish files
+static.
+But if the data volume is large, it may be advantageous for citizens to be able to
+using the methods of consultation and filters that can offer an API for
+receive only the data that interest you.
+Some of the considerations in deciding whether or not the
+development of API are shown in the article called
+[* "Do you really need an API?" *] (Https://www.peterkrantz.com/2012/publishing-open-data-api-design/).
 
-*Próximo passo:* [Solicitar documentação](#solicitar-documenta%C3%A7%C3%A3o)
+* Next step: * [Request documentation] (# requested documents% C3% A7% C3% A3o)
 
-## Solicitar documentação
+## Request documentation
 
-Solicitar esquema e documentação da base de dados. Ex.: modelos UML ou
-entidade-relacionamento, dicionário de dados, etc. Todo tipo de documentação
-ajuda às equipes de implementação a entender, em conjunto com especialistas
-de negócio, a melhor forma de estruturar os dados para sua publicação.
+Request schema and documentation database. Ex .: UML models or
+entity-relationship data dictionary, etc. All kinds of documentation
+implementation teams to help understand, together with experts
+business, the best way to structure the data for publication.
 
-Documentações relacionadas ao conjunto de dados são muito úteis, principalmente
-para os consumidores dos dados abertos e também devem ser juntamente [catalogados
-com os dados no dados.gov.br](#catalogar-no-dadosgovbr).
+Documentation related to the data set are very useful, especially
+for consumers of open data and should also be coupled [cataloged
+with the data on dados.gov.br] (catalog #-in-dadosgovbr).
 
-*Próximo passo:* [Definir estrutura dos dados](#definir-estrutura-dos-dados)
+* Next step: * [Set data structure] (# define-structure-of-data)
 
-## Definir estrutura dos dados
+## Set data structure
 
-Nessa etapa também são definidos os formatos de saída dos dados.
-[XML]({{ site.baseurl }}Glossário#xml), [CSV]({{ site.baseurl }}Glossário#csv) e
-[JSON]({{ site.baseurl }}Glossário#json) são úteis para situações específicas.
+At this stage the data output formats are also defined.
+[XML] ({{}} site.baseurl Glossary # xml) [CSV] ({{}} site.baseurl Glossary # csv) and
+[JSON] ({{}} site.baseurl Glossary # json) are useful for specific situations.
 
-As planilhas CSV têm a vantagem de poderem ser facilmente abertas e manipuladas em
-qualquer editor de planilhas, tais como Calc e Excel, inclusive por uma pessoa que
-não tenha conhecimentos de programação. Além disso, são igualmente fáceis de serem
-consumidas por aplicações.
+The CSV sheets have the advantage of being easily opened and manipulated in
+any spreadsheet editor, such as Calc and Excel, including a person who
+not have programming knowledge. Moreover, they are also easy to
+consumed by applications.
 
-Os arquivos XML e JSON têm a vantagem de possibilitarem a validação de vários
-tipos de dados, tais como números inteiros ou decimais. Além disso, permitem
-aninhar as estruturas de dados em hierarquias, o que facilita trabalhar com os
-dados em comparação com a estrutura plana de colunas do CSV.
-Permitem também a inclusão de marcações de links para outros recursos de dados
-através da web.
+The XML and JSON files have the advantage that they permit the validation of various
+data types such as integers or decimal numbers. Furthermore, let
+the nesting hierarchy data structures, which facilitates work with
+data as compared to the planar structure of the CSV columns.
+Also allow the inclusion of markings of links to other resources data
+through the web.
 
-Em caso de publicação de planilhas CSV, definir e escrever a documentação de
-quais são e o que significam as colunas, bem como quais são os tipos de dados
-aceitáveis em cada coluna de cada planilha.
+In case of publication CSV spreadsheet, define and write documentation of
+what they are and what the columns mean and what are the types of data
+acceptable in each column of each spreadsheet.
 
-Em caso de publicação de arquivos XML ou JSON, definir a estrutura básica do
-documento. É possível, mas não necessário, estabelecer documentos XML Schema
-ou JSON Schema para validação.
+In case of publication of XML or JSON files, define the basic structure of
+document. It is possible, but not necessary, to establish XML Schema documents
+or JSON Schema for validation.
 
-*Próximo passo:* [Realizar extração](#realizar-extra%C3%A7%C3%A3o)
+* Next step: * [Perform extraction] (# place extra% C3% A7% C3% A3o)
 
-## Realizar extração
+## Perform extraction
 
-Realizar extração inicial dos dados, a partir do ambiente de produção da base
-de dados, para o local onde a base será disponibilizada como dados abertos.
+Perform initial extraction of data from the production environment of the base
+data, to where the base will be made available as open data.
 
-Por exemplo, se tiver sido decidido publicar os dados em arquivos csv, essa
-etapa contempla hospedar a extração em csv em um servidor de arquivos para a
-web. Se tiver sido decidido publicar uma API de dados abertos, essa etapa
-contempla a carga da base de dados que é acessada diretamente pela camada de
-aplicação da API.
+For example, it has been decided to publish the data in csv files, this
+step includes hosting the extraction csv file on a server to
+web. If it has been decided to publish an API open data, this step
+contemplates the load database which is accessed directly by layer
+implementation of the API.
 
-*Próximo passo:* [Decidir qualidade mínima](#decidir-qualidade-m%C3%ADnima)
+* Next step: * [Deciding minimum quality] (# decide quality-m% C3% ADnima)
 
-## Decidir qualidade mínima
+## Decide minimum quality
 
-A partir do momento em que os dados estejam à disposição para verificação da
-equipe técnica de implementação e dos especialistas de negócio, será avaliada
-a necessidade de higienização dos dados antes da publicação.
+From the time that data is available to verify the
+technical implementation team and business experts, will be evaluated
+the need to sanitize the data before publication.
 
-Definir por acordo entre as partes interessadas a qualidade mínima dos dados
-abertos publicados, de forma a viabilizar a sua publicação tempestiva dentro
-da capacidade da instituição.
+Set by agreement between the parties concerned the minimum data quality
+open published, in order to facilitate their timely publication within
+the capacity of the institution.
 
-Mais considerações sobre os requisitos dos dados podem ser encontradas na 
-[Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
-, capítulo 6.
+More considerations on data requirements can be found in
+[Technical Primer for Publication of Open Data in Brazil] (http://dados.gov.br/cartilha-publication data-abertos/)
+Chapter 6.
 
-*Próximo passo:* [Desenvolver API](#desenvolver-solução)
+* Next step: * [Develop API] (# develop solution)
 
-## Desenvolver solução
+## Develop solution
 
-O trabalho a ser feito nessa etapa varia bastante, a depender do tipo de
-solução de dados abertos escolhida no
-[início do projeto]((#reuni%C3%A3o-de-in%C3%ADcio-de-projeto)):
-disponibilização de arquivos [CSV]({{ site.baseurl }}Glossário#csv), de algum tipo de
-[_dumps_]({{ site.baseurl }}Glossário#dump) dos dados, ou ainda, a criação de uma
-[API]({{ site.baseurl }}Glossário#api) de dados abertos.
+The work to be done in this step varies widely, depending on the type of
+open data solution chosen in
+[Beginning of the project] ((# reunite% C3% A3o-in-a% C3% ADcio-of-project)):
+availability of files [CSV] ({{}} site.baseurl Glossary # csv), some kind of
+[_dumps _] ({{}} Site.baseurl Glossary # dump) data, or even the creation of a
+[API] ({{}} site.baseurl Glossary # api) open data.
 
-Nos casos da diponibilização de arquivos ou _dumps_, esta etapa contempla
-a criação dos scripts de [ETL]({{ site.baseurl }}Glossário#etl) que fazem a higienização
-dos dados decidida na [etapa anterior](#decidir-qualidade-mínima).
+In cases of diponibilização files or _dumps_, this step includes
+the creation of scripts [ETL] ({{}} site.baseurl Glossary # etl) that make the cleaning
+data determined in the [previous step] (# decide-minimum quality).
 
-No caso de desenvolvimento de uma API, esta etapa contempla
-o desenvolvimento do software que operará o serviço. Recomenda-se o uso de
-um [método ágil]({{ site.baseurl }}Glossário#método-Ágil) de desenvolvimento de software.
+In the case of developing an API, this step comprises
+the development of software that will operate the service. The use is recommended
+one ({{}} site.baseurl Glossary # method-Agile) [agile] method of software development.
 
-Nesta etapa de desenvolvimento, pode-se ganhar muita produtividade ao
-utilizar [ferramentas]({{ site.baseurl }}#ferramentas) apropriadas ao tipo de solução
-que está sendo desenvolvida.
+This stage of development, one can gain a lot of productivity to
+using [tools] ({{}} # site.baseurl tools) appropriate to the type of solution
+being developed.
 
-Em todos os casos, recomenda-se que os arquivos disponibilizados ou a API
-em desenvolvimento fiquem visíveis para toda a internet, de forma a
-reduzir as barreiras para que eventuais interessados em testar a solução
-(por exemplo, outro setor ou organização que tenham interesse em consumir
-os dados abertos) possam oferecer _feedback_ durante o desenvolvimento e,
-assim, aprimorar a solução e garantir que quando ela esteja pronta atenda
-ao seu propósito de ser útil para os consumidores de dados.
+In all cases, it is recommended that the available files or API
+in development are visible to the entire internet, so
+reduce barriers so that any interested in testing the solution
+(Eg, another industry or organization with an interest in consuming
+open data) can offer _feedback_ during development and
+thus enhance the solution and ensure that when she is ready to answer
+its purpose to be useful for data consumers.
 
-*Próximo passo:* [Atualização automática](#atualiza%C3%A7%C3%A3o-autom%C3%A1tica)
+* Next step: * [Automatic Update] (# update% C3% A7% C3% A3o Auto-% C3% A1tica)
 
-## Atualização automática
+## Auto Update
 
-Definir e implementar processo periódico automático de atualização dos dados.
-Esta etapa contempla a negociação da periodicidade e fluxo dos
-dados entre os ambientes que compõem a arquitetura da solução de abertura de
-dados, bem como a criação de scripts de transformação e carga
-([ETL]({{ site.baseurl }}Glossário#etl)).
+Define and implement automatic periodic process of updating the data.
+This step involves the negotiation of frequency and flow of
+data between the environments that make up the solution architecture opening
+data, as well as the creation of transformation scripts and load
+([ETL] ({{}} site.baseurl Glossary # etl)).
 
-Esse momento é importante para garantir a atualidade dos dados publicados, 
-que quanto mais atuais, mais valor possuem.
+This moment is important to ensure the timeliness of published data,
+that the more current, the more value they have.
 
-*Próximo passo:* [Divulgar dados abertos](#divulgar-dados-abertos)
+* Next step: * [Disclose open data] (# spread-open-data)
 
-## Divulgar dados abertos
+## Disclose open data
 
-Uma vez que a solução de dados abertos esteja em condições de qualidade
-suficientes para o encerramento do presente projeto de abertura de dados,
-pode-se dar início à ampla divulgação dos seus resultados.
+Once the solution is in open data quality conditions
+sufficient for the closure of this opening project data,
+can initiate the wide dissemination of their results.
 
-Isso pode ser feito pelos canais de comunicação que o órgão possui e também
-naqueles que alcancem o público que já se antecipe estar interessado nos dados,
-tais como listas de discussão da [INDA]({{ site.baseurl }}Glossário#inda) e de
-[hackers cívicos]({{ site.baseurl }}Glossário#hacker-cívico), bem como de organizações da
-sociedade civil que acompanham o tema finalístico dos dados.
+This can be done by communication channels and that the agency has also
+those who reach the audience that already anticipate being interested in the data,
+such as mailing lists of [INDA] ({{}} site.baseurl Glossary # inda) and
+[Civic hackers] ({{}} site.baseurl Glossary # hacker-civic), as well as the organizations
+civil society that accompany the theme finalistic data.
 
-Nesse momento pode-se decidir pelo planejamento ou não de um futuro
-[hackaton]({{ site.baseurl }}Glossário#hackathon) ou concurso de dados abertos.
+At this moment we can not decide for or planning a future
+[Hackaton] ({{}} site.baseurl Glossary # hackathon) or contest open data.
 
-É importante destacar ainda que os dados logicamente compreendem ativos
-digitais da instituição e por isso devem estar disponíveis e visíveis em
-local apropriado em seu próprio sítio.
+Importantly, though the data logically comprise assets
+Digital institution and therefore should be available and visible in
+appropriate place on your own site.
 
-*Próximo passo:* [Catalogar no dados.gov.br](#catalogar-no-dadosgovbr)
+* Next step: * [Cataloging in dados.gov.br] (# cataloging-in-dadosgovbr)
 
-## Catalogar no dados.gov.br
+## Cataloging in dados.gov.br
 
-O objetivo dessa catalogação é tornar os dados "descobríveis" na web para seus 
-interessados. Isso aumenta as chances das pessoas encontrarem os dados 
-prontamente, sem precisar recorrer ao [SIC]({{ site.baseurl }}Glossário#sic) da sua
-organização.
+The purpose of this catalog is to make data "discoverable" on the web for their
+interested. This increases the chances of people finding data
+readily without resort to [sic] ({{}} site.baseurl Glossary # sic) of their
+organization.
 
-Para catalogar o novo conjunto de dados no [dados.gov.br](http://dados.gov.br) 
-é necessário levantar um conjunto mínimo de metadados que são utilizados no portal 
-Esses metadados estão melhor descritos na
-[Cartilha Técnica para Publicação de Dados Abertos no Brasil](http://dados.gov.br/cartilha-publicacao-dados-abertos/)
-, capítulo 7.
+To catalog the new dataset in [dados.gov.br] (http://dados.gov.br)
+is required to raise a minimum set of metadata that are used in the portal
+These metadata are further described in
+[Technical Primer for Publication of Open Data in Brazil] (http://dados.gov.br/cartilha-publication data-abertos/)
+Chapter 7.
 

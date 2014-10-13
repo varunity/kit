@@ -1,52 +1,52 @@
 ---
 published: true
-permalink: /Execução-do-PDA/
+permalink: / Run-of-PDA /
 layout: slate
-filename: Execução-do-PDA.md
-title: Execução do PDA - Kit de Dados Abertos
-desc: Descreve o processo de execução de um Plano de Dados Abertos de uma instituição.
+filename: Run-of-PDA.md
+title: Implementation of PDA - Open Data Kit
+desc: Describes the process of implementing a Plan of Open Data in an institution.
 ---
 
-Execução do Plano de Dados Abertos
+Plan Execution Open Data
 ====
 
-[<img alt="Diagrama do processo de execução de um PDA" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA%20-%20com%20titulo.png)
+[<Img alt = "Diagram of the process of implementing a PDA" src="https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA.png">](https://raw.githubusercontent.com/dadosgovbr/kit/master/public/img/Processo%20Execu%C3%A7%C3%A3o%20PDA%20-%20com%20titulo.png)
 
-A execução do
-<abbr name="Plano de Dados Abertos">[PDA]({{ site.baseurl }}Glossário#pda)</abbr>
-na organização se divide nos seguintes passos:
+The execution of
+<Abbr name = "Open Data Plan"> [PDA] ({{}} site.baseurl Glossary # pda) </ abbr>
+the organization is divided into the following steps:
 
 
-## Reunir representantes das áreas de negócio
+Gathering ## representatives of the business areas
 
-Considerando que num primeiro momento o gestor [identificou os representantes das áreas estratégicas]({{ site.baseurl }}Processo-sistêmico#representantes), essa atividade consiste basicamente em acertar as agendas desses representantes para as reuniões periódicas de monitoramento, necessárias para acompanhar se as metas do plano estão sendo cumpridas.
+Whereas at first the manager [representatives identified strategic areas] ({{}} site.baseurl Process-systemic # representatives), this activity is basically to set the agendas of these meetings representatives for periodic monitoring necessary to track whether the goals of the plan are being met.
 
-## Definir Papéis e responsabilidades
+## Defining Roles and Responsibilities
 
-Esse é o momento onde cada área se compromete com uma parte do trabalho:
+This is the time where every area agrees with some of the work:
 
-* Área de tecnologia da informação: apoiar a abertura das bases de dados, diretamente ou na definição dos requisitos aos fornecedores; Fazer o refinamento e a publicação dos dados, através do desenvolvimento de solução ou publicação de arquivos.
-* [Serviço de Informação ao Cidadão]({{ site.baseurl }}Glossário#sic): Apoiar a interlocução com consumidores dos dados para definir dados mais prioritários para a abertura e obter feedback sobre as publicações.
-* Assessoria de Comunicação Social: apoiar o planejamento e desenvolver ações de comunicação coordenadas com a publicação dos dados; planejar e realizar a interlocução com consumidores dos dados para definir dados mais prioritários para a abertura e obter feedback sobre as publicações.
-* Ouvidoria: Apoiar a interlocução com consumidores dos dados para definir dados mais prioritários para a abertura e obter feedback sobre as publicações.
-* Áreas de negócio - realizar a abertura das bases de dados com o apoio da área de TI; definir a melhor forma de estruturar os dados, os campos mais relevantes, etc.
+* Area of ​​information technology: supporting the opening of databases, or directly in defining requirements to suppliers; Do refinement and publication of the data, by developing solution or publishing files.
+* [Citizens Information Service] ({{}} site.baseurl Glossary # sic): Supporting dialogue with consumer data to set priorities more towards openness and obtain feedback about the publications.
+* Social Communication: support planning and develop actions coordinates communication with the publication of data; plan and conduct a dialogue with consumers of data to set more priority towards openness and obtain feedback about the publications.
+* Ombudsman: Supporting dialogue with consumer data to set priorities more towards openness and obtain feedback about the publications.
+* Business areas - the opening up of databases with the support of IT; define the best way to structure the data, the most relevant fields, etc.
 
-## Iniciar processos de abertura de base de dados
+To initiate opening ## database
 
-Após as definições passadas, chega a hora de abrir as bases de dados. Aqui são iniciados os 
-[processos de abertura de dados]({{ site.baseurl }}Abertura-de-dados), que podem ser desenvolvidos em série ou paralelamente. 
-Em geral o gargalo dessa atividade é a área de TI da organização, que dificilmente dispõe técnicos para realizar tudo ao mesmo tempo. 
-Nesse caso, sugere-se que seja formada uma equipe da área de TI para se tornar
-responsável pela implementação de todas instâncias dos
-[processos de abertura de dados]({{ site.baseurl }}Abertura-de-dados) da organização.
-Dessa forma, busca-se mais eficiência por uma mesma equipe se familiarizar com
-o processo.
+After the previous definitions, it is time to open the databases. Here are initiated
+[Aperture processes data] ({{}} site.baseurl data-opening) which can be developed in series or in parallel.
+In general the bottleneck of this activity is the IT organization, which has hardly technicians to accomplish everything at once.
+In this case, it is suggested that it formed a team of IT to become
+responsible for implementation of all instances of
+[Opening processes data] ({{}} site.baseurl Opening-of-data) of the organization.
+Thus, we seek to more efficiently by the same team become familiar with
+process.
 
-## Monitorar a execução de cada processo
+## Monitor the execution of each process
 
-Esse é um processo de monitoramento e controle comum. O Gestor deve agendar
-reuniões periódicas para essa atividade e, durante as reuniões, acompanhar as
-metas estabelecidas no PDA e verificar suas entregas.
-É uma boa prática mantes as informações de andamento da execução do PDA 
-publicizadas no sítio da instituição no própio local o onde o 
-[PDA está publicado]({{ site.baseurl }}Processo-sistêmico#publicação-do-pda-).
+This is a common process monitoring and control. The manager should schedule
+regular meetings for this activity and, during meetings, follow
+targets set in the PDA and check their deliveries.
+It is a good practice information diamonds tempo of PDA
+publicized on the website of the institution in the place where the propio
+[PDA is published] ({{}} site.baseurl Case # systemic-publication-of-pda-).

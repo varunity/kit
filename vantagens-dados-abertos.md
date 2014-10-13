@@ -1,50 +1,50 @@
 ---
 published: true
-permalink: /vantagens-dados-abertos/
+permalink: / advantages-open-data /
 layout: slate
-filename: vantagens-dados-abertos.md
-title: Vantagens da publicação de dados abertos - Kit de Dados Abertos
-desc: Algumas vantagens, inclusive econômicas, de se publicar dados abertos.
+filename: advantages-data-abertos.md
+title: Benefits of publishing open data - Open Data Kit
+desc: Some benefits, including economic ones, to publish open data.
 ---
 
-Vantagens da publicação de dados abertos
+Advantages of publishing open data
 ====
 
-Tornar os dados abertos e acessáveis em formatos padronizados e processáveis por máquina pode gerar  significativa produtividade e economia para sua organização. Ao conduzir análise de custo-benefício para determinar se vale a pena ou até que ponto devemos modificar nossos conjuntos de dados e sistemas para atender à política de dados abertos, considere os seguintes benefícios.
+Make data open and acessáveis ​​in standardized formats for machine-processable and can generate significant cost savings and productivity for your organization. When conducting cost-benefit analysis to determine whether it is worth or how far we should modify our data sets and systems to meet the open data policy, consider the following benefits.
 
 
-#### Economizar tempo e dinheiro respondendo a pedidos de acesso à informação <a name="economizar"></a>
+#### Save time and money responding to requests for access to information <a name="economizar">
 
-Quando os dados são abertos, os cidadãos podem acessar os dados e informações que procuram de uma maneira direta na web. Liberando sua organização do tempo e custo relacionado a responder os pedidos de acesso à informação.
+When data are open, citizens can access the data and information seeking in a direct way on the web. Releasing your organization time and costs related to responding to requests for access to information.
 
-#### Evitar ações duplicadas <a name="evitar-acoes-duplicadas"></a>
+#### Preventing duplicate actions <a name="evitar-shares-duplicadas"> </a>
 
-A melhoria da gestão de dados e informações da organização ajuda a prevenir a possibilidade de gastar orçamento pela coleta ou tratamento de dados de maneira duplicada em iniciativas distintas, fato que costuma acontecer quando um departamento desconhece a existência dos dados dos demais. Além disso, é possível reduzir o escopo e o custo de novas coletas baseando-se na habilidade de reusar ou cruzar os dados disponíveis. Mantendo um catálogo de dados central para sua organização torna mais fácil entender quais dados e informações estã disponíveis, e revisar esse catálogo antes do início de qualquer sistema é uma prática recomendada.
+Improved data management and information organization helps prevent the possibility of spending budget for the collection or processing of data so duplicated in different initiatives, a fact that tends to happen when a department is unaware of other data. Moreover, it is possible to reduce the scope and cost of new collection based on the ability to reuse or cross data available. Maintaining a central database to catalog your organization makes it easier to understand what data and this information is available, and review this catalog prior to the start of any system is a best practice.
 
-#### Descobrir conjuntos de dados complementares possuídos por outros órgãos <a name="descobrir-dados"></a>
+#### Discover complementary sets of data possessed by other bodies <a name="descobrir-dados"> </a>
 
-Os benefícios da transparência nos conjuntos de dados da sua organização são potencializados quando cada órgão tiver seus dados catalogados de maneira padronizada. Gestores podem perceber que parte ou todos os dados que precisam para alguma iniciativa já estão nas mãos de uma ou mais organizações, ou que conclusões importantes podem ser desenhadas pela combinação dos seus dados com dados adicionais de outras organizações.
+The benefits of transparency in the data sets of your organization are enhanced when each agency has cataloged their data in a standardized way. Managers can understand that part or all of the data they need for any initiative are already in the hands of one or more organizations, or that important conclusions can be drawn by combining their data with additional data from other organizations.
 
-#### Atenção positiva dos ciadãos, mídia e outros órgãos <a name="midia"></a>
+#### Ciadãos of positive attention, media and other organs <a name="midia"> </a>
 
-Nos últimos anos, vários eventos exclusivos sobre dados abertos foram realizados pelas diversas esferas e poderes do estado, com a cobertura da mídia e atenção nacional. Quanto mais dados sua organização tornar disponíveis em formatos fáceis de reusar, mais oportunidades para cobertura positiva das iniciativas de dados abertos e do impacto desses dados na sociedade.
-
-
-#### Gerar receita e criar novos empregos <a name="receita"></a>
+In recent years, several unique events on open data were performed by the various spheres and powers of the state, with the media coverage and national attention. The more data your organization become available in easy formats reuse, more opportunities for positive coverage of open data initiatives and the impact of such data on society.
 
 
-Segundo [Neelie Kroes](http://ec.europa.eu/commission_2010-2014/kroes/), Vice-Presidente 
-da comissão européia e responsável pela [Agenda Digital](http://ec.europa.eu/digital-agenda/), 
-em 2011 [a economia de dados abertos já gerava cerca de 32 bilhões de Euros por ano na Europa](http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en).
+#### Generate revenues and create new jobs <a name="receita"> </a>
 
-Portanto acredita-se que a publicação de dados abertos tende a estimular a 
-economia, na medida em que agentes econômicos privados os utilizam na 
-criação de novos processos de negócio e na otimização dos processos existentes. A 
-primeira ocorre quando empresas utilizam os dados públicos para gerar novos 
-serviços e aplicações úteis à sociedade. A última pode ocorrer, por exemplo, quando 
-um comerciante decide onde instalar uma nova filial com base em informações 
-demográficas ou na existência de determinados serviços públicos no local. Assim, 
-visa-se também alcançar esse resultado indireto ao propor que os dados abertos 
-sejam um instrumento de interoperabilidade.
 
-Traduzido e adaptado do [Project Open Data](http://project-open-data.github.io/business-case/)
+According to [Kroes] (http://ec.europa.eu/commission_2010-2014/kroes/), Vice-President
+the European Commission and responsible for (http://ec.europa.eu/digital-agenda/) [Digital Book]
+in 2011 [economics of open data already generated around 32 billion Euros per year in Europe] (http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en).
+
+Therefore it is believed that the open publication data tends to foster
+economy, in so far as the private economic agents used in
+creation of new business processes and optimization of existing processes. The
+first occurs when companies use public data to generate new
+services and applications useful to society. The latter can occur, for example, when
+a trader decides where to locate a new branch based on information
+demographic or the existence of certain public services on site. Like this,
+the aim is too achieve that indirect result by proposing that open data
+be an instrument of interoperability.
+
+Translated and adapted from [Project Open Data] (http://project-open-data.github.io/business-case/)

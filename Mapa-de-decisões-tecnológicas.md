@@ -1,616 +1,616 @@
 ---
 published: true
-permalink: /Mapa-de-decisões-tecnológicas/
+permalink: / map-of-making-technology /
 layout: slate
-filename: Mapa-de-decisões-tecnológicas.md
-title: Mapa de decisões - Kit de Dados Abertos
-desc: Neste mapa são apresentadas diversas formas de publicação de dados abertos, dando ao gestor parâmetros de apoio à decisão.
+filename: Map-of-decision-tecnológicas.md
+title: Map of decisions - Open Data Kit
+desc: this map various forms of publishing open data are presented, giving the manager parameters for decision support.
 ---
 
-## Mapa de decisões tecnológicas
+## Map of technological decisions
 
-A tabela abaixo mostra as soluções mais comuns para publicar dados abertos, ordenadas por complexidade e prazo de implementação.
+The table below shows the most common solutions for publishing open data, sorted by complexity and implementation time.
 
-<!---
-Abaixo o código HTML da tabela, markdown não suporta colspan.
+<! ---
+Below the HTML table, markdown not support colspan.
 --->
 
-<table class="tabela-decisoes-tecnologicas">
-    <!--<colgroup>
-      <col width="118" />
-      <col width="424" />
-      <col width="302" />
-      <col width="200" />
-    </colgroup>-->
+<Table class = "table-technological decisions">
+    <- <Colgroup>
+      <Col width = "118" />
+      <Col width = "424" />
+      <Col width = "302" />
+      <Col width = "200" />
+    </ Colgroup> ->
 
-    <tr>
+    <Tr>
 
-      <th>
-        Solu&ccedil;&atilde;o
-      </th>
+      <Th>
+        Solu & brow furrowed Primary Color the
+      </ Th>
 
-      <th>
-        Pr&eacute;-requisitos
-      </th>
+      <Th>
+        Pr & eacute; -Requirements
+      </ Th>
 
-      <th>
-        Prazo
-      </th>
+      <Th>
+        Deadline
+      </ Th>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="2">
-        <a href="#publicar-dump-da-base-de-dados">Publicar dump da base de dados</a>
-      </td>
+      <Td rowspan = "2">
+        <a href="#publicar-dump-the-base-of-dados"> Post dump data base </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Acesso &agrave; base de dados
-      </td>
+      <Td class = "half-cell">
+        Access & worse; database
+      </ Td>
 
-      <td rowspan="2">
-        Curto<br />
-      </td>
+      <Td rowspan = "2">
+        Short <br />
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para arquivos
-      </td>
+    <Tr>
+      <Td>
+        Web server for files
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="2">
-        <a href="#publicar-dados-em-arquivos-csv">Publicar dados em arquivos CSV</a>
-      </td>
+      <Td rowspan = "2">
+        <a href="#publicar-data-on-file-csv"> Publish data in CSV files </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Mecanismo de ETL (caso esteja em banco relacional)
-      </td>
+      <Td class = "half-cell">
+        ETL engine (if in relational database)
+      </ Td>
 
-      <td rowspan="2">
-        Curto<br />
-      </td>
+      <Td rowspan = "2">
+        Short <br />
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para arquivos
-      </td>
+    <Tr>
+      <Td>
+        Web server for files
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="3">
-        <a href="#publicar-dados-em-arquivos-json--xml">Publicar dados em arquivos JSON / XML</a>
-      </td>
+      <Td rowspan = "3">
+        <a href="#publicar-data-on-file-json - xml"> Publish data in JSON / XML files </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Mecanismo de ETL (caso esteja em banco relacional)
-      </td>
+      <Td class = "half-cell">
+        ETL engine (if in relational database)
+      </ Td>
 
-      <td rowspan="3">
-        M&eacute;dio
-      </td>
+      <Td rowspan = "3">
+        M & eacute; dio
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Servi&ccedil;o de desenvolvimento
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        Serve & brow furrowed the development
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para arquivos
-      </td>
+    <Tr>
+      <Td>
+        Web server for files
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="2">
-        <a href="#desenvolver-mdulo-de-dados-abertos-em-sistema-existente">Desenvolver m&oacute;dulo de dados abertos em sistema existente</a>
-      </td>
+      <Td rowspan = "2">
+        <a href="#desenvolver-module-data-open-in-system-existente"> Develop m & oacute; module open data in existing system </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Servi&ccedil;o de desenvolvimento
-      </td>
+      <Td class = "half-cell">
+        Serve & brow furrowed the development
+      </ Td>
 
-      <td rowspan="2">
-        Longo
-      </td>
+      <Td rowspan = "2">
+        Long
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para deploy da nova solu&ccedil;&atilde;o
-      </td>
+    <Tr>
+      <Td>
+        Web server to deploy the new solution & brow furrowed Primary Color the
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="3">
-        <a href="#desenvolver-api-restful-de-dados-abertos-desacoplada-da-soluo">Desenvolver API RESTful de dados abertos desacoplada da
-        solu&ccedil;&atilde;o</a>
-      </td>
+      <Td rowspan = "3">
+        <a href="#desenvolver-api-restful-data-open-decoupled-the-soluo"> Developing RESTful API Decoupled open data
+        solutions & brow furrowed Primary Color </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Mecanismo de ETL
-      </td>
+      <Td class = "half-cell">
+        ETL mechanism
+      </ Td>
 
-      <td rowspan="3">
-        Longo
-      </td>
+      <Td rowspan = "3">
+        Long
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Servi&ccedil;o de desenvolvimento
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        Serve & brow furrowed the development
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para deploy da nova solu&ccedil;&atilde;o
-      </td>
+    <Tr>
+      <Td>
+        Web server to deploy the new solution & brow furrowed Primary Color the
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="3">
-        <a href="#novo-sistema-com-a-gesto-de-dados-incorporados-em-sua-arquitetura">Novo Sistema, com a gest&atilde;o de dados incorporados em sua arquitetura</a>
-      </td>
+      <Td rowspan = "3">
+        <a href="#novo-system-with-gesture-data-embedded-in-your-architecture"> New System, with gest Primary Color the data embedded in its architecture </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Mecanismo de ETL
-      </td>
+      <Td class = "half-cell">
+        ETL mechanism
+      </ Td>
 
-      <td rowspan="3">
-        Longo
-      </td>
+      <Td rowspan = "3">
+        Long
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Servi&ccedil;o de desenvolvimento
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        Serve & brow furrowed the development
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para deploy da nova solu&ccedil;&atilde;o
-      </td>
+    <Tr>
+      <Td>
+        Web server to deploy the new solution & brow furrowed Primary Color the
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="3">
-        <a href="#publicar-dados-em-arquivos-rdf">Publicar dados em arquivos RDF</a>
-      </td>
+      <Td rowspan = "3">
+        <a href="#publicar-data-on-file-rdf"> Publish data in RDF files </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Ontologia da &aacute;rea do conhecimento do sistema
-      </td>
+      <Td class = "half-cell">
+        Ontology & á area of ​​knowledge of the system
+      </ Td>
 
-      <td rowspan="3">
-        Longo
-      </td>
+      <Td rowspan = "3">
+        Long
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Mecanismo de ETL
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        ETL mechanism
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para arquivos
-      </td>
+    <Tr>
+      <Td>
+        Web server for files
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="3">
-        <a href="#disponibilizar-dados-por-endpoint-sparql">Disponibilizar dados por Endpoint SPARQL</a>
-      </td>
+      <Td rowspan = "3">
+        <a href="#disponibilizar-data-for-endpoint-sparql"> Provide data for SPARQL Endpoint </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Ontologia da &aacute;rea do conhecimento do sistema
-      </td>
+      <Td class = "half-cell">
+        Ontology & á area of ​​knowledge of the system
+      </ Td>
 
-      <td rowspan="3">
-        Mais Longo
-      </td>
+      <Td rowspan = "3">
+        Longest
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Mecanismo de ETL
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        ETL mechanism
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Banco de dados de triplas
-      </td>
+    <Tr>
+      <Td>
+        Database of triple
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
+    <Tr>
 
-      <td rowspan="5">
-        <a href="#publicar-dados-em-api-de-dados-ligados-linked-data">Publicar dados em API de dados ligados (Linked Data)</a>
-      </td>
+      <Td rowspan = "5">
+        <a href="#publicar-data-api-in-data-linked-linked-data"> Publish data in linked data API (Linked Data) </a>
+      </ Td>
 
-      <td class="celula-meio">
-        Ontologia da &aacute;rea do conhecimento do sistema
-      </td>
+      <Td class = "half-cell">
+        Ontology & á area of ​​knowledge of the system
+      </ Td>
 
-      <td rowspan="5">
-        Mais Longo
-      </td>
+      <Td rowspan = "5">
+        Longest
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Banco de dados de triplas
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        Database of triple
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Servi&ccedil;o de desenvolvimento
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        Serve & brow furrowed the development
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td class="celula-meio">
-        Mecanismo de ETL
-      </td>
+    <Tr>
+      <Td class = "half-cell">
+        ETL mechanism
+      </ Td>
 
-    </tr>
+    </ Tr>
 
-    <tr>
-      <td>
-        Servidor web para deploy da nova solu&ccedil;&atilde;o
-      </td>
+    <Tr>
+      <Td>
+        Web server to deploy the new solution & brow furrowed Primary Color the
+      </ Td>
 
-    </tr>
-  </table>
+    </ Tr>
+  </ Table>
 
-<!---
-### Lista de Soluções
+<! ---
+### List of Solutions
 
-#### Publicar dump da base de dados
+#### Post dump database
 
-Essa é a forma mais simples de publicação, caso a base de dados não esteja em ambiente próprio, basta pedir extração ao prestador de serviços, disponibilizar no servidor web e providenciar domínio + URL persistente.
+This is the simplest form of publication, if the database is not in the proper environment, just ask the extraction service, available on the web server and provide domain + persistent URL.
 
-**Vantagens e Desvantagens:** curto prazo de implementação, difícil visualização dos dados.
+Advantages and Disadvantages **: ** short implementation time, hard data visualization.
 
-#### Publicar dados em arquivos CSV
+Post #### data in CSV files
 
-Para essa publicação é necessário um mecanismo mínimo de ETL, para poder transformar as tabelas do SGBD em 'tabelas' CSV.
+For this publication a minimum ETL mechanism to be able to turn the tables in the DBMS 'tables' CSV is required.
 
-**Vantagens e Desvantagens:** curto prazo, fácil visualização através de ferramentas conhecidas.
+Advantages and Disadvantages **: ** short term, easy viewing through familiar tools.
 
-#### Publicar dados em arquivos JSON / XML
+Post #### data in JSON / XML files
 
-No caso do CSV bastaria transformar e normalizar uma tabela em outra tabela (SGBD -> SQL). Para essa publicação, será necessária uma transformação mais customizada, respeitando as estruturas dos formatos JSON e XML.
+In the case of CSV suffice transform and normalize a table in another table (DBMS -> SQL). For this publication, a more customized processing is needed, respecting the structure of JSON and XML formats.
 
-**Vantagens e Desvantagens:** mais trabalhoso de implementar, facilidade de se trabalhar com esses formatos nas linguagens de programação e apis de visualização.
+Advantages and Disadvantages **: ** more laborious to implement, easy to work with these formats in programming languages ​​and apis viewing.
 
-#### Desenvolver módulo de dados abertos em sistema existente
+#### Develop module open data in existing system
 
-Essa opção só é viável caso o sistema tenha uma arquitetura modular.
+This option is only viable if the system has a modular architecture.
 
-**Vantagens e Desvantagens:** coesão da solução; interface única para usuários; maior custo de desenvolvimento.
+Advantages and Disadvantages **: ** cohesion of the solution; single interface for users; higher cost of development.
 
-#### Desenvolver API RESTful de dados abertos desacoplada da solução
+#### Developing RESTful API Decoupled open data solution
 
-Uma decisão importante para essa opção é a separação ou não do banco de dados da API do de produção, que possui várias implicações (performance, atualidade dos dados etc)
+An important decision for this option is the separation or not the database of the API production, which has several implications (performance, timeliness of data etc)
 
-**Vantagens e Desvantagens:** possibilidade de consultas mais específicas; Custo de desenvolvimento.
+Advantages and Disadvantages **: ** possibility of more specific queries; Development cost.
 
-#### Novo Sistema, com a gestão de dados incorporados em sua arquitetura
+#### New System, with embedded data management in its architecture
 
-**Vantagens e Desvantagens:** Sistema desenhado prevendo atendimento da Lei de Acesso à informação, automatização da extração de dados
+Advantages and Disadvantages **: ** System designed predicting attendance of Law Access to information, automation of data extraction
 
-#### Publicar dados em arquivos RDF
+Post #### data in RDF files
 
 
-#### Disponibilizar dados por Endpoint SPARQL
+#### Provide data for SPARQL Endpoint
 
 
-#### Publicar dados em API de dados ligados (Linked Data)
--->
+Post #### data in linked data API (Linked Data)
+->
 
-### Glossário de Formatos
+### Glossary Formats
 
-#### Formatos básicos
+#### Basic formats
 
-##### Dump SQL
+##### SQL Dump
 
-De forma genérica, um "_[dump](https://pt.wikipedia.org/wiki/Dump_de_banco_de_dados)_"
-é uma descarga de todo o conteúdo de uma base de dados, estruturada de uma
-forma que possa ser novamente carregada em um sistema gerenciador de banco de
-dados (SGBD) idêntico ou compatível, produzindo-se por esse processo uma base
-de dados que é uma cópia fidedigna da original.
+Generically, a '_ [dump] (https://pt.wikipedia.org/wiki/Dump_de_banco_de_dados) _ "
+is a discharge of the entire contents of a database, structured in a
+form that can be reloaded into a database management system
+(DBMS) identical or compatible, producing a base by the process
+Data which is a faithful copy of the original.
 
-Há vários tipos de _dump_. Os formatos textuais podem ser inspecionados em um
-editor de textos e geralmente usam a sintaxe SQL no dialeto particular do SGBD
-utilizado. Há também os formatos binários que produzem arquivos menores que os
-textuais, mas a compatibilidade com versões diferentes do SGBD tende a ser
-ainda mais restritiva que a compatibilidade dos formatos textuais.
+There are several types of _dump_. The textual formats can be inspected on a
+text editor and often use SQL syntax in particular dialect of DBMS
+used. There are also binary formats produce smaller files that
+textual, but compatibility with different versions of DBMS tends to be
+even more restrictive than the compatibility of textual formats.
 
-Os SGBD em geral possuem processos definidos e documentação objetiva de como se
-gerar e carregar um _dump_.
+The DBMS generally have defined processes and objective documentation of how
+generate and load a _dump_.
 
-`++++++`: 
-* Forma menos trabalhosa de se publicar os dados
-* Curto prazo para produção
-* Preserva a estrutura dos dados como o são em produção
+`` ++++++:
+* Less laborious Form to publish data
+* Short-term production
+* Preserves the structure of data as they are in production
 
-`------`:
-* Provável necessidade de remoção prévia de dados pessoais
-* Necessidade de realizar carga dos dados em SGBD para acessá-los
-* Não há padronização entre formatos de dumps de SGBSs diferentes: em geral
-  necessita-se do mesmo software e versão que gerou o dump
+------ ``:
+* Probable need for prior removal of personal data
+* Need to carry load data into DBMS to access them
+* There is no standardization between dumps SGBSs different formats: in general
+  is needed-the same software and version that generated the dump
 
 ##### CSV
 
-Pode significar [Comma-Separated Values](https://pt.wikipedia.org/wiki/Comma-separated_values)
-(valores separados por vírgula), ou
-ainda, Character-Separated Values (valores separados por caractere). É um
-formato para armazenamento de dados tabulares em texto. A codificação é
-muito simples: cada linha do arquivo representa uma linha na tabela, e as
-colunas são separadas por vírgula. Campos que podem conter vírgula devem ser
-delimitados por aspas. CSV é recomendado para representação de estrutura de
-dados mais simples, de natureza tabular, onde não existem subpropriedades ou
-listas, gerando um arquivo menor e mais leve para processamento. Arquivos CSV
-são processáveis diretamente por editores de planilhas, como o OpenOffice e o
-MS Excel. (do [Glossário](/Gloss%C3%A1rio/#csv))
+Can mean [Comma-Separated Values] (https://pt.wikipedia.org/wiki/Comma-separated_values)
+(Comma separated values), or
+still, Character-Separated Values ​​(separated by character values). It is a
+tabular format for storing text data. The encoding is
+very simple: each line of the file represents a row in the table, and
+columns are separated by commas. Fields which may contain point must be
+delimited by double quotes. CSV is recommended for representing structure
+simpler data, tabular nature, where there are subproperties or
+lists, resulting in a smaller and lighter file for processing. CSV files
+are directly processable by spreadsheet editors such as OpenOffice and the
+MS Excel. (The [Glossary] (/% C3% A1rio Gloss / # csv))
 
-`++++++`:
-* Simplicidade. Registros em estrutura tabular.
-* Facilidade de geração (qualquer banco de dados exporta)
-* Facilidade de consumo (qualquer editor de planilhas manipula)
-* Sucinto (os arquivos gerados são menores)
+`` ++++++:
+* Simplicity. Records in tabular structure.
+* Ease of generation (any database exports)
+* Ease of use (handles any spreadsheet editor)
+* Succinct (the generated files are smaller)
 
-`------`:
-* Falta de padronização do formato
-* Não suporta tipagem de valores
-* Dificuldade em se representar ligações entre os dados
+------ ``:
+Lack of standardization of the format
+* Does not support typing values
+* Difficult to represent connections between the data
 
-##### JSON
+JSON #####
 
-É um acrônimo para
-[_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
-É um padrão aberto de estruturação de dados baseado em texto e legível por
-humano. A especificação é a [RFC 7159](https://tools.ietf.org/html/rfc7159).
-JSON ganhou maior utilização com a utilização de carga dinâmica de conteúdo
-em páginas web com Javascript (técnica denominada "Ajax"). A serialização em
-JSON é muito simples e resulta em uma
-estrutura pouco verbosa o que se mostra uma ótima alternativa para o XML.
-JSON possibilita serialização de estrutura de objetos complexos, como listas e
-subpropriedades. JSON está se tornando o padrão mais utilizado para integração
-de dados entre repositórios e frameworks, também está se tornando o padrão
-nativo de armazenamento em alguns bancos de dados modernos.
-(do [Glossário](/Gloss%C3%A1rio/#json))
+It is an acronym for
+[_JavaScript Object Notation_] (https://pt.wikipedia.org/wiki/JSON).
+It is an open standard data structuring text-based and readable
+human. The specification is the [RFC 7159] (https://tools.ietf.org/html/rfc7159).
+JSON gained increased use with the use of dynamic load Content
+web pages with Javascript (technique called "Ajax"). The serialization
+JSON is very simple and results in a
+little verbose structure which shows a great alternative to XML.
+JSON serialization allows the structure of complex objects, such as lists and
+subproperties. JSON is becoming the most widely used standard for integration
+data between repositories and frameworks, is also becoming the standard
+native storage in some modern databases.
+(The [Glossary] (/% C3% A1rio Gloss / # json))
 
-`++++++`:
-* Facilidade para representar hierarquias
-* Suporta tipagem de valores
-* Facilidade de consumo (qualquer linguagem de programação lê com facilidade)
-* Utilizável diretamente em navegadores (leitura por javascript)
-* Formato padronizado ([RFC 7159 do IETF](https://tools.ietf.org/html/rfc7159),
-  [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
-* Possibilidade de definir esquema de validação
-* Mais leve para processar que o XML
+`` ++++++:
+* Ease to represent hierarchies
+* Supports typing values
+* Ease of use (any programming language easily read)
+* Can be used directly in web browsers (read by javascript)
+* Standardized Format ([RFC 7159 of the IETF] (https://tools.ietf.org/html/rfc7159)
+  [ECMA-404] (http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
+* Possibility to define the validation scheme
+* Lighter to process the XML
 
-`------`:
+------ ``:
 
 ##### XML
 
-XML significa [Extensible Markup Language](http://pt.wikipedia.org/wiki/XML),
-e é uma sintaxe para codificar documentos em um formato legível por máquina.
-É baseado em texto e tem como alguns de seus
-[objetivos](http://www.w3.org/TR/REC-xml/#sec-origin-goals) a facilidade de
-uso e legibilidade.
-XML é largamente utilizado como formato de troca de dados nos clássicos Web
-Services SOAP. Apesar da larga utilização, é cada vez menos encorajada a
-utilização desse formato para integração de aplicações. Em substituição,
-recomenda-se utilizar JSON, por economizar banda e ser de processamento mais
-leve. (do [Glossário](/Gloss%C3%A1rio/#xml)).
+Means XML [Extensible Markup Language] (http://pt.wikipedia.org/wiki/XML)
+and is a syntax for encoding documents in a machine-readable format.
+It is text-based and has as some of its
+[Goals] (http://www.w3.org/TR/REC-xml/#sec-origin-goals) ease of
+use and readability.
+XML is widely used as a data exchange format on the Web Classics
+SOAP Services. Despite the widespread use, it is becoming less encouraged
+use this format for application integration. Instead,
+recommend using JSON for saving bandwidth and be processing more
+lightweight. (The [Glossary] (/% C3% A1rio Gloss / # xml)).
 
-`++++++`:
-* Facilidade para representar hierarquias
-* Suporta tipagem de valores
-* Amplo suporte de ferramentas
-* Formato padronizado ([W3C](http://www.w3.org/TR/2006/REC-xml11-20060816/))
-* Possilidade de definir esquema de validação
+`` ++++++:
+* Ease to represent hierarchies
+* Supports typing values
+* Extensive support tools
+* Standardized Format ([W3C] (http://www.w3.org/TR/2006/REC-xml11-20060816/))
+* Possilidade set of schema validation
 
-`------`:
-* Prolixo (os arquivos gerados são maiores)
-* Maior gasto de processamento para geração e consumo em relação ao JSON.
+------ ``:
+* Verbose (the generated files are larger)
+* Increased spent processing for generation and consumption over JSON.
 
-#### Formatos geo
+#### Geo Formats
 
-Alguns formatos de arquivo servem especificamente para representar dados
-geográficos. A seguir, são relacionados os principais padrões abertos para
-dados geo, juntamente com as vantagens e desvantagens de cada um.
+Some file formats cater specifically to represent data
+geographic. The following are the main open standards related to
+geo data, along with the advantages and disadvantages of each.
 
 ##### GeoJSON
 
-É um formato aberto baseado em [JSON](/Gloss%C3%A1rio/#json) para representar
-informações geográficas. Possibilita representar formas como pontos, linhas e
-polígonos com coordenadas geográficas, juntamente com seus atributos
-não-espaciais.
-O GeoJSON não é mantido por um órgão formal de padronização, como alguns
-outros formatos para informações geográficas. Em vez disso, ele é
-[especificado](http://geojson.org/geojson-spec.html)
-por um grupo de trabalho de desenvolvedores.
-(do [Glossário](/Gloss%C3%A1rio/#geojson)).
+It is an open format based on [JSON] (/% C3% A1rio Gloss / json #) to represent
+geographical information. Enables representing forms such as points, lines and
+polygons with geographic coordinates, along with their attributes
+non-spatial.
+The GeoJSON is not maintained by a formal standardization body, as some
+other formats for geographic information. Instead, it is
+[Specified] (http://geojson.org/geojson-spec.html)
+by a working group of developers.
+(The [Glossary] (/% C3% A1rio Gloss / # GeoJSON)).
 
-`++++++`:
-* Todos os benefícios do JSON
-* Bom suporte de ferramentas
-* Leve para processamento
+`` ++++++:
+* All the benefits of JSON
+* Good support tools
+* Lightweight processing
 
-`------`:
-* Falta padronização (embora a especificação seja aberta)
+------ ``:
+* Lack standardization (although the specification is open)
 
 ##### KML
 
-Acrônimo para
-_[Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)_.
-É um formato baseado em XML, desenvolvido originalmente pelo Google e depois
-[padronizado](http://www.opengeospatial.org/standards/kml) pelo Open Geospatial
-Consortium. Pode representar informações geográficas, tais como
-marcadores de local, imagens, polígonos, modelos tridimensionais ou descrições
-textuais, usando coordenadas de latitude, longitude e elevação conforme o
-sistema [WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System).
-(do [Glossário](/Gloss%C3%A1rio/#kml)).
+Acronym for
+[Keyhole Markup Language] (https://en.wikipedia.org/wiki/Keyhole_Markup_Language) _. _
+It is an XML-based format, originally developed by Google and later
+[Standardized] (http://www.opengeospatial.org/standards/kml) by Open Geospatial
+Consortium. May represent geographical information, such as
+placemarks, images, polygons, three dimensional models, or descriptions
+textual, using latitude, longitude and elevation coordinates as
+[WGS84] (https://en.wikipedia.org/wiki/World_Geodetic_System). system
+(The [Glossary] (/% C3% A1rio Gloss / # kml)).
 
-`++++++`:
-* Formato padronizado
-* Bom suporte de ferramentas
+`` ++++++:
+* Standardized Format
+* Good support tools
 
-`------`:
-* Mais pesado para processamento que o GeoJSON
+------ ``:
+* Heavier processing the GeoJSON
 
-##### Shapefile ESRI
+ESRI Shapefile #####
 
-Formato aberto para dados geoespaciais, desenvolvido pela empresa Esri, que
-produz soluções de software para sistemas de informações geográficas (GIS).
-Apesar de ser mantido por uma empresa, a sua
-[especificação](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
-é aberta e é implementada por praticamente todas as ferramentas de GIS.
-(do [Glossário](/Gloss%C3%A1rio/#shapefile)).
+Open for geospatial data format developed by ESRI, which
+produces software solutions for geographic information systems (GIS).
+Despite being maintained by a company, its
+[Specification] (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
+is open and is implemented by virtually all GIS tools.
+(The [Glossary] (/% C3% A1rio Gloss / # shapefile)).
 
-`++++++`:
-* Amplo suporte de ferramentas
+`` ++++++:
+* Extensive support tools
 
-`------`:
-* Falta padronização (embora a especificação seja aberta)
-* Necessita múltiplos arquivos para um único mapa
-* Possui limitações no armazenamento de atributos
+------ ``:
+* Lack standardization (although the specification is open)
+* Need multiple files to a single map
+* It has limitations in storage attributes
 
-#### Formatos baseados em RDF
+#### Based on RDF formats
 
-A família de formatos
-[RDF](https://pt.wikipedia.org/wiki/Resource_Description_Framework)
-baseia-se em um metamodelo de grafos para indicar os relacionamentos entre
-os nós, onde cada nó pode ser qualquer coisa sobre a qual queira se afirmar
-algo. Esse metamodelo possibilita estabelecer relações semânticas entre os
-dados, ao descrevê-los conforme um modelo (vocabulário ou ontologia)
-preestabelecido para aquele domínio da informação.
+The family of formats
+[RDF] (https://pt.wikipedia.org/wiki/Resource_Description_Framework)
+is based on a metamodel graph to indicate the relationships between
+nodes, where each node can be anything about which wants to assert
+something. This metamodel allows to establish semantic relations between the
+data, to describe them as a model (vocabulary or ontology)
+preset information for that domain.
 
-Dados conforme esse metamodelo de grafos podem ser armazenados em bancos de
-dados especializados, chamados _triple stores_, ou bancos de triplas, numa
-referência à forma de descrever o grafo listando cada tripla nó-aresta-nó,
-representando sujeito, predicado e objeto.
+This meta-data as graphs can be stored in databases
+specialized data, called stores_ _triple or triple banks, a
+reference to how to describe the graph listing each triple node-edge-node,
+representing subject, predicate and object.
 
-Ao gravar dados RDF em um arquivo, no entanto, é necessário escolher uma entre
-as múltiplas sintaxes possíveis para representar o grafo como uma sequência de
-caracteres: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
-(do [Glossário](/Gloss%C3%A1rio/#rdf)).
+When recording RDF data in a file, however, you must choose one of
+multiple syntaxes possible to represent the graph as a sequence of
+characters: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
+(The [Glossary] (/% C3% A1rio Gloss / rdf #)).
 
-A seguir, algumas vantagens e desvantagens de se usar RDF em geral para a
-publicação de dados. Em seguida, apresentam-se uma breve descrição e as
-vantagens e desvantagens de cada um dos formatos de arquivo (sintaxes)
-específicos para dados em RDF.
+The following are some advantages and disadvantages of using RDF in general for the
+publication of data. Then, we present a brief description and
+advantages and disadvantages of each file (syntax) formats
+specific data in RDF.
 
-`++++++`:
-* possibilidade de utilizar semântica para descrever os dados
-* facilita o cruzamento e ligação de dados entre fontes diversas
-* potencializa a reutilização de ferramentas especializadas em dados de determinado domínio da informação
-* facilita a descoberta de conhecimento ao possibilitar queries mais complexas usando dados de diversos domínios
+`` ++++++:
+* Possibility of using semantics to describe the data
+* Facilitates the crossing and link data between different sources
+* Maximizes the reuse of specialized tools for data given domain information
+* Facilitates knowledge discovery by allowing more complex queries using data from various domains
 
-`------`:
-* necessita desenvolver
-  [ontologia](https://pt.wikipedia.org/wiki/Ontologia_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o))
-  que descreve os conceitos relacionados aos dados
-* maior complexidade do metamodelo (grafos)
-* maior heterogeneidade nas estrutura dos dados
+------ ``:
+* Needs to develop
+  [Ontology] (https://pt.wikipedia.org/wiki/Ontologia_ (ci AAncia_da_computa% C3% A7% C3%% C3% A3o))
+  that describes the concepts related to data
+* Greater complexity of the metamodel (graph)
+* Greater heterogeneity in the data structure
 
 ##### Turtle
 
-Turtle significa _"[Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_(syntax))"_,
-ou linguagem sucinta de triplas RDF. Foi criada como uma sintaxe simplificada
-para leitura tanto por humanos quanto por máquinas e
-[padronizada](http://www.w3.org/TR/turtle/) em 2014.
-A indentação e o uso de prefixos são
-elementos que facilitam a leitura, assim como o agrupamento de triplas que
-possuem o mesmo sujeito ou que possuem o mesmo sujeito e mesmo predicado.
+Turtle _ means "[Terse RDF Triple Language] (https://en.wikipedia.org/wiki/Turtle_ (syntax))" _,
+or succinct language of RDF triples. Was created as a simplified syntax
+read by both humans and by machines and
+[Standardized] (http://www.w3.org/TR/turtle/) in 2014.
+The indentation and the use of prefixes are
+elements that facilitate the reading, as well as the grouping of triples that
+have the same subject or having the same subject and the same predicate.
 
-`++++++`:
-* Sucinto (os arquivos gerados são menores)
-* Simplicidade de leitura por humanos
-* Formato padronizado
-* Bom suporte de ferramentas
-* Leve para processamento
+`` ++++++:
+* Succinct (the generated files are smaller)
+* Simplicity reading by humans
+* Standardized Format
+* Good support tools
+* Lightweight processing
 
-`------`:
+------ ``:
 
-##### RDF/XML
+##### RDF / XML
 
-A sintaxe original, quando o padrão RDF foi inicialmente estabelecido, foi a
-baseada em XML. Por ser a primeira sintaxe para RDF, o seu suporte em
-ferramentas é excelente. Por outro lado, pela verbosidade do XML e pela
-sua estrutura hierárquica, os arquivos gerados são geralmente complexos e de
-difícil leitura.
+The original syntax, when the RDF was initially set standard, was
+based on XML. As the first syntax for RDF, your support
+tools is excellent. Moreover, the verbosity of the XML and
+its hierarchical structure, the generated files are usually complex and
+difficult to read.
 
-`++++++`:
-* Formato padronizado
-* Amplo suporte de ferramentas
+`` ++++++:
+* Standardized Format
+* Extensive support tools
 
-`------`:
-* Dificuldade de leitura por humanos
-* Utiliza estrutura hierárquica para representar um modelo de grafos
-* Prolixo (os arquivos gerados são maiores)
-* Mais pesado para processamento
+------ ``:
+* Difficulty reading by humans
+* Uses hierarchical structure to represent a model of graphs
+* Verbose (the generated files are larger)
+* Heavier processing
 
 ##### JSON-LD
 
-É um formato baseado em
-[JSON para Linked Data](https://en.wikipedia.org/wiki/JSON-LD), também
-[padronizado](http://www.w3.org/TR/json-ld/) em 2014.
-Traz todas as vantagens do formato JSON. A estrutura de mapeamento para IRIs
-pode opcionalmente ser separada em um documento JSON de contexto, o que deixa
-o JSON principal, onde estão os dados, essencialmente com a mesma estrutura que
-um documento JSON comum.
+It is a format based on
+[JSON for Linked Data] (https://en.wikipedia.org/wiki/JSON-LD), also
+[Standardized] (http://www.w3.org/TR/json-ld/) in 2014.
+Brings all the advantages of JSON format. A mapping framework for IRIs
+can optionally be separated into a JSON document context, which leaves
+the main JSON, where the data are essentially the same structure that
+JSON a common document.
 
-`++++++`:
-* Formato padronizado
-* Leve para processamento
-* Utilizável diretamente em navegadores (leitura por javascript)
+`` ++++++:
+* Standardized Format
+* Lightweight processing
+* Can be used directly in web browsers (read by javascript)
 
-`------`:
-* Menor suporte de ferramentas por ser um padrão mais recente
+------ ``:
+* Lower support tools to be a more recent pattern
 
