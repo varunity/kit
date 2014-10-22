@@ -18,7 +18,7 @@ new references.
 Before diving into the construction of the PDA, there is a very important previous step:
 Define who will be responsible for the initiative and bring people together
 relevant to the activities in question. These activities are structured in
-[Systemic process] ({{}} site.baseurl Process-systemic),
+[Systemic process]({{}} site.baseurl Process-systemic),
 worth checking before you start ..
 
 Briefly, the process of creating the PDA boils down to four steps:
@@ -43,13 +43,13 @@ The prioritization is because it is not worth the organization make an effort to
 As the [Manual for drafting PDA](http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/manual_elaboracao_plano_dados_abertos.pdf), the prioritization step should consider these criteria:
 
 1 The degree of relevance to citizens, observing especially ** demands routed via SIC ** and services sectors and most popular sites on the electronic organ. Additionally, the organization can also hold a meeting with the main consumers of your data (eg civil society, NGOs, researchers, other public bodies) to understand where to focus their needs;
-2 The legal and normative commitments formally undertaken by the agency, including before international bodies (eg [OGP] ({{}} site.baseurl Glossary # OGP));
+2 The legal and normative commitments formally undertaken by the agency, including before international bodies (eg [OGP]({{}} site.baseurl Glossary # OGP));
 3 The alignment to the Institutional Strategic Planning (IEP) and sectoral planning, as well as those related to the areas of information technology;
 4 The set of information and systems under the management of the body, especially if any, structuring systems that are mandatory for cross bodies of APF;
 5 The level of maturity and organization of existing information and data.
 
 Another important source for guidance is a list of [datasets high valor](https://www.gov.uk/government/publications/open-data-charter/g8-open-data-charter-and-technical-annex#action-2-release-of-high-value-data),
-brought by the [Open Data Charter] (https://www.gov.uk/government/publications/open-date charter) the [G8] (http://en.wikipedia.org/wiki/G8).
+brought by the [Open Data Charter](https://www.gov.uk/government/publications/open-date charter) the [G8](http://en.wikipedia.org/wiki/G8).
 
 ## Developing strategies for opening
 
@@ -76,9 +76,9 @@ PDA]((http://www.planejamento.gov.br/secretarias/upload/Arquivos/governo_aberto/
 
 * Hold meetings with stakeholders in the data
 * Hold contests applications (notable examples: (http://www.justica.gov.br/dados-open [contests MJ]),
-[Contests INEP] (http://hackathondadoseducacionais.org.br/)
+[Contests INEP](http://hackathondadoseducacionais.org.br/)
 [Contest of the Ministry Planejamento](http://dados.gov.br/noticia/conheca-os-vencedores-do-concurso-nacional-de-dados-abertos/),
-[Desarrolando Latin America] (http://desarrollandoamerica.org/))
+[Desarrolando Latin America](http://desarrollandoamerica.org/))
 * Use the data more requests SIC
 * Stimulate internal use and other public bodies of published data
 * Disseminate the culture in the organization of access to information and availability of public data.

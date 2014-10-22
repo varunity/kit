@@ -356,7 +356,7 @@ Post #### data in linked data API (Linked Data)
 
 ##### SQL Dump
 
-Generically, a '_ [dump] (https://pt.wikipedia.org/wiki/Dump_de_banco_de_dados) _ "
+Generically, a '_ [dump](https://pt.wikipedia.org/wiki/Dump_de_banco_de_dados) _ "
 is a discharge of the entire contents of a database, structured in a
 form that can be reloaded into a database management system
 (DBMS) identical or compatible, producing a base by the process
@@ -384,7 +384,7 @@ generate and load a _dump_.
 
 ##### CSV
 
-Can mean [Comma-Separated Values] (https://pt.wikipedia.org/wiki/Comma-separated_values)
+Can mean [Comma-Separated Values](https://pt.wikipedia.org/wiki/Comma-separated_values)
 (Comma separated values), or
 still, Character-Separated Values ​​(separated by character values). It is a
 tabular format for storing text data. The encoding is
@@ -394,7 +394,7 @@ delimited by double quotes. CSV is recommended for representing structure
 simpler data, tabular nature, where there are subproperties or
 lists, resulting in a smaller and lighter file for processing. CSV files
 are directly processable by spreadsheet editors such as OpenOffice and the
-MS Excel. (The [Glossary] (/% C3% A1rio Gloss / # csv))
+MS Excel. (The [Glossary](/% C3% A1rio Gloss / # csv))
 
 `` ++++++:
 * Simplicity. Records in tabular structure.
@@ -410,9 +410,9 @@ Lack of standardization of the format
 JSON #####
 
 It is an acronym for
-[_JavaScript Object Notation_] (https://pt.wikipedia.org/wiki/JSON).
+[_JavaScript Object Notation_](https://pt.wikipedia.org/wiki/JSON).
 It is an open standard data structuring text-based and readable
-human. The specification is the [RFC 7159] (https://tools.ietf.org/html/rfc7159).
+human. The specification is the [RFC 7159](https://tools.ietf.org/html/rfc7159).
 JSON gained increased use with the use of dynamic load Content
 web pages with Javascript (technique called "Ajax"). The serialization
 JSON is very simple and results in a
@@ -421,15 +421,15 @@ JSON serialization allows the structure of complex objects, such as lists and
 subproperties. JSON is becoming the most widely used standard for integration
 data between repositories and frameworks, is also becoming the standard
 native storage in some modern databases.
-(The [Glossary] (/% C3% A1rio Gloss / # json))
+(The [Glossary](/% C3% A1rio Gloss / # json))
 
 `` ++++++:
 * Ease to represent hierarchies
 * Supports typing values
 * Ease of use (any programming language easily read)
 * Can be used directly in web browsers (read by javascript)
-* Standardized Format ([RFC 7159 of the IETF] (https://tools.ietf.org/html/rfc7159)
-  [ECMA-404] (http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
+* Standardized Format ([RFC 7159 of the IETF](https://tools.ietf.org/html/rfc7159)
+  [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf))
 * Possibility to define the validation scheme
 * Lighter to process the XML
 
@@ -437,22 +437,22 @@ native storage in some modern databases.
 
 ##### XML
 
-Means XML [Extensible Markup Language] (http://pt.wikipedia.org/wiki/XML)
+Means XML [Extensible Markup Language](http://pt.wikipedia.org/wiki/XML)
 and is a syntax for encoding documents in a machine-readable format.
 It is text-based and has as some of its
-[Goals] (http://www.w3.org/TR/REC-xml/#sec-origin-goals) ease of
+[Goals](http://www.w3.org/TR/REC-xml/#sec-origin-goals) ease of
 use and readability.
 XML is widely used as a data exchange format on the Web Classics
 SOAP Services. Despite the widespread use, it is becoming less encouraged
 use this format for application integration. Instead,
 recommend using JSON for saving bandwidth and be processing more
-lightweight. (The [Glossary] (/% C3% A1rio Gloss / # xml)).
+lightweight. (The [Glossary](/% C3% A1rio Gloss / # xml)).
 
 `` ++++++:
 * Ease to represent hierarchies
 * Supports typing values
 * Extensive support tools
-* Standardized Format ([W3C] (http://www.w3.org/TR/2006/REC-xml11-20060816/))
+* Standardized Format ([W3C](http://www.w3.org/TR/2006/REC-xml11-20060816/))
 * Possilidade set of schema validation
 
 ------ ``:
@@ -467,15 +467,15 @@ geo data, along with the advantages and disadvantages of each.
 
 ##### GeoJSON
 
-It is an open format based on [JSON] (/% C3% A1rio Gloss / json #) to represent
+It is an open format based on [JSON](/% C3% A1rio Gloss / json #) to represent
 geographical information. Enables representing forms such as points, lines and
 polygons with geographic coordinates, along with their attributes
 non-spatial.
 The GeoJSON is not maintained by a formal standardization body, as some
 other formats for geographic information. Instead, it is
-[Specified] (http://geojson.org/geojson-spec.html)
+[Specified](http://geojson.org/geojson-spec.html)
 by a working group of developers.
-(The [Glossary] (/% C3% A1rio Gloss / # GeoJSON)).
+(The [Glossary](/% C3% A1rio Gloss / # GeoJSON)).
 
 `` ++++++:
 * All the benefits of JSON
@@ -488,14 +488,14 @@ by a working group of developers.
 ##### KML
 
 Acronym for
-[Keyhole Markup Language] (https://en.wikipedia.org/wiki/Keyhole_Markup_Language) _. _
+[Keyhole Markup Language](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) _. _
 It is an XML-based format, originally developed by Google and later
-[Standardized] (http://www.opengeospatial.org/standards/kml) by Open Geospatial
+[Standardized](http://www.opengeospatial.org/standards/kml) by Open Geospatial
 Consortium. May represent geographical information, such as
 placemarks, images, polygons, three dimensional models, or descriptions
 textual, using latitude, longitude and elevation coordinates as
-[WGS84] (https://en.wikipedia.org/wiki/World_Geodetic_System). system
-(The [Glossary] (/% C3% A1rio Gloss / # kml)).
+[WGS84](https://en.wikipedia.org/wiki/World_Geodetic_System). system
+(The [Glossary](/% C3% A1rio Gloss / # kml)).
 
 `` ++++++:
 * Standardized Format
@@ -509,9 +509,9 @@ ESRI Shapefile #####
 Open for geospatial data format developed by ESRI, which
 produces software solutions for geographic information systems (GIS).
 Despite being maintained by a company, its
-[Specification] (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
+[Specification](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
 is open and is implemented by virtually all GIS tools.
-(The [Glossary] (/% C3% A1rio Gloss / # shapefile)).
+(The [Glossary](/% C3% A1rio Gloss / # shapefile)).
 
 `` ++++++:
 * Extensive support tools
@@ -524,7 +524,7 @@ is open and is implemented by virtually all GIS tools.
 #### Based on RDF formats
 
 The family of formats
-[RDF] (https://pt.wikipedia.org/wiki/Resource_Description_Framework)
+[RDF](https://pt.wikipedia.org/wiki/Resource_Description_Framework)
 is based on a metamodel graph to indicate the relationships between
 nodes, where each node can be anything about which wants to assert
 something. This metamodel allows to establish semantic relations between the
@@ -539,7 +539,7 @@ representing subject, predicate and object.
 When recording RDF data in a file, however, you must choose one of
 multiple syntaxes possible to represent the graph as a sequence of
 characters: XML, N-Triples, Turtle, JSON-LD, RDFa, etc.
-(The [Glossary] (/% C3% A1rio Gloss / rdf #)).
+(The [Glossary](/% C3% A1rio Gloss / rdf #)).
 
 The following are some advantages and disadvantages of using RDF in general for the
 publication of data. Then, we present a brief description and
@@ -554,17 +554,17 @@ specific data in RDF.
 
 ------ ``:
 * Needs to develop
-  [Ontology] (https://pt.wikipedia.org/wiki/Ontologia_ (ci AAncia_da_computa% C3% A7% C3%% C3% A3o))
+  [Ontology](https://pt.wikipedia.org/wiki/Ontologia_ (ci AAncia_da_computa% C3% A7% C3%% C3% A3o))
   that describes the concepts related to data
 * Greater complexity of the metamodel (graph)
 * Greater heterogeneity in the data structure
 
 ##### Turtle
 
-Turtle _ means "[Terse RDF Triple Language] (https://en.wikipedia.org/wiki/Turtle_ (syntax))" _,
+Turtle _ means "[Terse RDF Triple Language](https://en.wikipedia.org/wiki/Turtle_ (syntax))" _,
 or succinct language of RDF triples. Was created as a simplified syntax
 read by both humans and by machines and
-[Standardized] (http://www.w3.org/TR/turtle/) in 2014.
+[Standardized](http://www.w3.org/TR/turtle/) in 2014.
 The indentation and the use of prefixes are
 elements that facilitate the reading, as well as the grouping of triples that
 have the same subject or having the same subject and the same predicate.
@@ -599,8 +599,8 @@ difficult to read.
 ##### JSON-LD
 
 It is a format based on
-[JSON for Linked Data] (https://en.wikipedia.org/wiki/JSON-LD), also
-[Standardized] (http://www.w3.org/TR/json-ld/) in 2014.
+[JSON for Linked Data](https://en.wikipedia.org/wiki/JSON-LD), also
+[Standardized](http://www.w3.org/TR/json-ld/) in 2014.
 Brings all the advantages of JSON format. A mapping framework for IRIs
 can optionally be separated into a JSON document context, which leaves
 the main JSON, where the data are essentially the same structure that

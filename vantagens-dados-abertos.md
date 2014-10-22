@@ -33,9 +33,9 @@ In recent years, several unique events on open data were performed by the variou
 #### Generate revenues and create new jobs <a name="receita"> </a>
 
 
-According to [Kroes] (http://ec.europa.eu/commission_2010-2014/kroes/), Vice-President
+According to [Kroes](http://ec.europa.eu/commission_2010-2014/kroes/), Vice-President
 the European Commission and responsible for (http://ec.europa.eu/digital-agenda/) [Digital Book]
-in 2011 [economics of open data already generated around 32 billion Euros per year in Europe] (http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en).
+in 2011 [economics of open data already generated around 32 billion Euros per year in Europe](http://europa.eu/rapid/press-release_SPEECH-11-872_en.htm?locale=en).
 
 Therefore it is believed that the open publication data tends to foster
 economy, in so far as the private economic agents used in
@@ -47,4 +47,4 @@ demographic or the existence of certain public services on site. Like this,
 the aim is too achieve that indirect result by proposing that open data
 be an instrument of interoperability.
 
-Translated and adapted from [Project Open Data] (http://project-open-data.github.io/business-case/)
+Translated and adapted from [Project Open Data](http://project-open-data.github.io/business-case/)
