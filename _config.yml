@@ -2,4 +2,4 @@ highlighter: pygments
 github: [Repository metadata]
 title: Open Data Kit
 url: https://varunity.github.io
-baseurl: kit
+baseurl: /kit/
